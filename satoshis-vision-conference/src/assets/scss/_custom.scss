@@ -1,0 +1,240 @@
+
+//globals
+
+$paperbg: #EDDFCD;
+
+
+.marketing-site-hero {
+  background: url('/assets/img/satoshis-vision-conference.png') 50% 50% no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position:relative;
+
+  
+  &:after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 125px;
+    background: url(/assets/img/rip.png) 0 0 no-repeat;
+  }
+  .marketing-site-hero-content {
+  // max-width: $global-width;
+  margin: 0 auto;
+  padding-top:12em;
+
+  }
+}
+
+.mailing.marketing-site-hero {
+    background: url('/assets/img/mailout_2.jpeg') 50% 70% no-repeat;
+    background-size: cover;
+    display:flex;
+    height:95vh;
+    position:relative;
+
+     &:after {
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 125px;
+    background: url(/assets/img/ripbottom.png) 50% 0 no-repeat;
+    }
+
+    &:before {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 125px;
+    background: url(/assets/img/rip.png) 50% 0 no-repeat;
+    }
+
+    .marketing-site-hero-content {
+      padding-top:2em;
+      h3 {
+        color:$white;
+        text-shadow:0 1px 5px rgba(0,0,0,0.5);
+      }
+      p {
+        color:$white;
+        font-size:1.1em;
+        text-shadow:0 1px 5px rgba(0,0,0,0.5);
+      }
+    }
+
+    #mc_embed_signup_scroll {
+      padding:0.5em
+    }
+
+    #mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
+
+    .mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+    #mce-EMAIL { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; border:0 ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
+
+    .clear { display: inline-block; } /* positions button horizontally in line with input */
+
+    .button {
+      margin-top:0.8em;
+      border-radius:3px;
+    }
+
+    @media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+      
+    .mc-field-group { display: block; max-width: 100%; }
+    #mce-EMAIL { padding: .7em 0 .7em 1em; width: 100%; margin: 0; }
+    .clear { display: block; width: 100% }
+    .button { width: 100%; margin: .5em 0 0 0; }
+      
+    }
+}
+
+.button {
+  letter-spacing:3px;
+  font-size:0.9em;
+  font-family:georgia,serif;
+}
+
+.button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.button-wrap {
+  padding:1em 0;
+
+  .button {
+    margin:0 1em;
+  }
+}
+
+.grid-container {
+  padding:4em 0;
+}
+
+
+.risingsun {
+    background-image: url(/assets/img/rising-sun.png);
+    background-position:center center;
+    background-size:cover;
+    height:150px;
+    width:150px;
+    margin:0 auto;
+    text-align:center;
+    img {
+      width:5em;
+      display:block;
+      margin:0 auto;
+      padding-top:2.2em;
+    }
+    
+}
+
+.callout {
+  overflow-wrap: break-word;
+  word-wrap:break-word;
+}
+
+//sections
+
+.title-section {
+  margin-bottom:4em;
+}
+.intro {
+  background:$paperbg url('/assets/img/bch-fade.png') no-repeat center center;
+  background-size:600px;
+  h1 {
+    // font-size:2em;
+    font-family:$header-font-family;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:400;
+    margin-bottom:1em;
+    span {
+      display:block; 
+      font-size:0.4em;
+      color:$primary-color;
+    font-family:$body-font-family;
+
+    }
+
+  }
+}
+
+
+.feature-list {
+  background:$paperbg;
+  position:relative;
+  padding-bottom:3em;
+
+
+
+  h3 {
+    // font-size:2em;
+    letter-spacing:2px;
+    
+    span {
+      display:block; 
+      font-size:0.4em;
+      color:$primary-color;
+    font-family:$body-font-family;
+
+    }
+  }
+
+  &:after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 125px;
+    background: url(/assets/img/ripdark.png) 50% 0 no-repeat;
+    }
+    .callout {
+      margin:3em 0;
+    }
+}
+
+
+footer {
+  background:#5F5F5F;
+  padding:2em 0;
+  position:relative;
+
+
+  h3 {
+    // font-size:2em;
+    letter-spacing:2px;
+    color:$white;
+    
+    span {
+      display:block; 
+      font-size:0.4em;
+      color:#C6C6C6;
+    font-family:$body-font-family;
+
+    }
+  }
+
+  p {
+    margin-top:3em;
+    color:#D6DDD6;
+    margin-bottom:0;
+  }
+
+  .button-wrap {
+    margin-top:2em;
+    margin-bottom:0;
+  }
+}

@@ -1,0 +1,70 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
+    <title>Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111897321-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111897321-1');
+  </script>
+
+
+  </head>
+  <body>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+    <script src="{{root}}assets/js/app.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Satoshi's Vision",
+  "description": "RE-UNITING BITCOIN DEVELOPMENT\
+JOIN BITCOIN UNLIMITED IN TOKYO FOR A PREMIER CONFERENCE AND EVENT.\
+Following Satoshi’s Vision conference held in San Francisco in 2016, and the Bitcoin Unlimited sponsored “The Future of Bitcoin” Conference held in Arnhem 2017, Bitcoin Unlimited brings you another premier event. Satoshi’s Vision Conference Tokyo will bring together developers, researchers, businesses, and Bitcoin Cash and other cryptocurrency enthusiasts from around the world.",
+  "startDate": "2018-03-23T09:00",
+  "endDate": "2018-03-25T22:00",
+  "performer": {
+    "@type": "PerformingGroup",
+    "name": "Satoshi Nakamoto"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "TBA",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "#",
+      "addressLocality": "Tokyo",
+      "postalCode": "#",
+      "addressCountry": "JP"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Coming Soon",
+    "price": "#",
+    "priceCurrency": "BCH",
+    "validFrom": "#",
+    "url": "http://satoshisvisionconference.com",
+    "availability": "http://schema.org/InStock"
+  }
+}
+</script>
+  </body>
+</html>
