@@ -16,3 +16,9 @@ $(".marketing-site-hero .button").click(function() {
         scrollTop: $(".intro").offset().top},
         'slow');
 });
+
+$(".speakers-list .button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".feature-list").offset().top},
+        'slow');
+});

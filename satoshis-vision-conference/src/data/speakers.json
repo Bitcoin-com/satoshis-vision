@@ -1,0 +1,57 @@
+[ 
+
+  {
+    "name": "Amaury Séchet",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
+    "position": "Lead Developer,<br>Bitcoin ABC"
+  },
+
+  {
+    "name": "Peter Rizun",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
+    "position": "Chief Scientist,<br>Bitcoin Unlimited"
+  },
+
+  {
+    "name": "Tom Harding",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg",
+    "position": "Lead Developer,<br>Bitcoin XT"
+  },
+
+  {
+    "name": "Andrew Stone",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg",
+    "position": "Lead Developer,<br>Bitcoin Unlimited"
+  },
+
+  {
+    "name": "Emin Gün Sirer",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg",
+    "position": "Associate Professor,<br>Cornell University"
+  },
+
+  {
+    "name": "Joannes Vermorel",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg",
+      "position": "Founder, Lokad"
+  },
+
+  {
+    "name": "Ryan X. Charles",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0005_RyanXCharles.jpg",
+    "position": "Co-founder and CEO,<br>Yours.org"
+  },
+
+  {
+    "name": "Rob Danielson",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg",
+    "position": "Co-founder,<br>Rocketr.net"
+  },
+
+  {
+    "name": "Chris Pacia",
+    "image": "assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg",
+    "position": "Developer,<br>Open Bazaar"
+  }
+  
+] 

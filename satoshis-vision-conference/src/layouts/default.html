@@ -7,7 +7,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
-    <title>Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan</title>
+    <title>{{#if title}}
+        {{title}}
+      {{else}}
+        Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan
+      {{/if}}
+    </title>
+    <meta name="description" content="{{description}}"/>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,8 +32,82 @@
   </head>
   <body>
 
+   <div class="marketing-site-hero">
+   <nav>
+    <ul class="menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/speakers.html">Speakers</a></li>
+        <li><a target="_blank" href="mailto:info@satoshisvisionconference.com">Contact</a></li>
+    </ul>
+   </nav>
+    <div class="marketing-site-hero-content text-center">
+      <a href="#" class="round button secondary">learn more <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
+
+
+    
+  <footer>
+
+      <div class="grid-x grid-padding-x">
+
+          <div class="large-4 large-offset-4 cell text-center">
+
+            <div class="text-center"><h3>Sponsored By</h3>
+                <a href="https://www.bitmain.com/" target="_blank"><img src="assets/img/bitmain_white.png" alt="Bitmain"></a>
+            </div>
+
+          </div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-3 large-offset-3 cell text-center">
+            <a href="https://www.bitcoinunlimited.info" target="_blank"><img src="assets/img/bitcoin-unlimited-logo.png" alt="Bitcoin Unlimited"></a>
+        </div>
+
+        <div class="large-3  cell text-center">
+            <a href="https://www.bitcoin.com/" target="_blank"><img src="assets/img/bitcoin-com.png" alt="Bitcoin.com"></a>
+        </div>
+
+
+          <div class="large-10 large-offset-1 cell text-center">
+            <div class="button-wrap">
+
+            <a href="https://twitter.com/satoshis_vision" class="button round" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+            <a class="button round" data-open="credit"><i class="fa fa-heart" aria-hidden="true"></i> Credit</a>
+
+            </div>
+
+            <div class="text-center footer-tagline">
+              <h5>Together we will make Bitcoin Cash the best money the world has ever seen.</h5>
+            </div>
+            
+            <p>&copy; Copyright 2017 Satoshi's Vision Conference</p>
+
+
+            <div class="reveal text-center" id="credit"  data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+
+                <h4>Credit &amp; Thanks!</h4>
+
+                <p>Illustrated <a href="https://www.freepik.com" target="_blank">banner by Freepik</a>, Iconography <a href="https://www.flaticon.com/authors/eucalyp" target="_blank">designed by Eucalyp from Flaticon</a>, Website provided by <a href="https://bitcoin.com" target="_blank">Bitcoin.com</a></p>
+
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+
+
+             
+            
+          </div>
+      </div>
+    
+  </footer>
 
     <script src="{{root}}assets/js/app.js"></script>
     <script type="application/ld+json">
