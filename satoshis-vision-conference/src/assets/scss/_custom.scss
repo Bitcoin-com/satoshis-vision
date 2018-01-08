@@ -5,7 +5,7 @@ $paperbg: #EDDFCD;
 
 
 .marketing-site-hero {
-  background: url('/assets/img/satoshis-vision-conference.png') 50% 50% no-repeat;
+  background: url('../../assets/img/satoshis-vision-conference.png') 50% 50% no-repeat;
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -20,7 +20,7 @@ $paperbg: #EDDFCD;
     bottom:0;
     width:100%;
     height: 125px;
-    background: url(/assets/img/rip.png) 0 0 no-repeat;
+    background: url(../../assets/img/rip.png) 0 0 no-repeat;
   }
   .marketing-site-hero-content {
   // max-width: $global-width;
@@ -31,7 +31,7 @@ $paperbg: #EDDFCD;
 }
 
 .mailing.marketing-site-hero {
-    background: url('/assets/img/mailout_2.jpeg') 50% 70% no-repeat;
+    background: url('../../assets/img/mailout_2.jpeg') 50% 70% no-repeat;
     background-size: cover;
     display:flex;
     height:95vh;
@@ -44,7 +44,7 @@ $paperbg: #EDDFCD;
     top:0;
     width:100%;
     height: 125px;
-    background: url(/assets/img/ripbottom.png) 50% 0 no-repeat;
+    background: url(../../assets/img/ripbottom.png) 50% 0 no-repeat;
     }
 
     &:before {
@@ -54,7 +54,7 @@ $paperbg: #EDDFCD;
     bottom:0;
     width:100%;
     height: 125px;
-    background: url(/assets/img/rip.png) 50% 0 no-repeat;
+    background: url(../../assets/img/rip.png) 50% 0 no-repeat;
     }
 
     .marketing-site-hero-content {
@@ -124,7 +124,7 @@ $paperbg: #EDDFCD;
 
 
 .risingsun {
-    background-image: url(/assets/img/rising-sun.png);
+    background-image: url(../../assets/img/rising-sun.png);
     background-position:center center;
     background-size:cover;
     height:150px;
@@ -176,7 +176,7 @@ nav {
   }
 }
 .intro {
-  background:$paperbg url('/assets/img/bch-fade.png') no-repeat top center;
+  background:$paperbg url('../../assets/img/bch-fade.png') no-repeat top center;
   background-size:600px;
   h1 {
     // font-size:2em;
@@ -198,12 +198,12 @@ nav {
 }
 
 .home-speakers {
-  background:url('/assets/img/stain.png') no-repeat center right;
+  background:url('../../assets/img/stain.png') no-repeat center right;
   // background-size:600px;
 }
 
 .speakers {
-    background:$paperbg url('/assets/img/stain.png') no-repeat center right;
+    background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
 
 }
 
@@ -333,7 +333,7 @@ nav {
 }
 
 .feature-list {
-    background:$paperbg url('/assets/img/stain.png') no-repeat center right;
+    background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
 
   position:relative;
   padding-bottom:3em;
@@ -361,7 +361,7 @@ nav {
     bottom:0;
     width:100%;
     height: 125px;
-    background: url(/assets/img/ripdark.png) 50% 0 no-repeat;
+    background: url(../../assets/img/ripdark.png) 50% 0 no-repeat;
     }
     .callout {
       margin:3em 0;
