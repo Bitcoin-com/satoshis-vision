@@ -9,16 +9,18 @@ import Foundation from 'foundation-sites';
 //import './lib/foundation-explicit-pieces';
 
 
+
 $(document).foundation();
 
 $(".marketing-site-hero .button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".intro").offset().top},
+        scrollTop: $(".grid-container").offset().top},
         'slow');
 });
 
-$(".speakers-list .button").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".feature-list").offset().top},
-        'slow');
-});
+
+
+
+
+
+  

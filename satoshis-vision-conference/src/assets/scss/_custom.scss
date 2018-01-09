@@ -159,7 +159,7 @@ nav {
 
 .title-section {
   margin-bottom:4em;
-  h1,h3 {
+  h1,h3,h4 {
     // font-size:2em;
     font-family:$header-font-family;
     text-transform:uppercase;
@@ -204,12 +204,14 @@ nav {
 
 .speakers {
     background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
+}
+
+.stain {
+        background: url('../../assets/img/stain.png') no-repeat center right;
 
 }
 
 .speakers-list {
-
-  
 
 
   .speaker {
@@ -242,10 +244,11 @@ nav {
 
     blockquote {
 
-      padding:1em;
+      padding:2.3em 0.8em;
       border-left: 0;
       quotes: "\201C""\201D""\2018""\2019";
-      font-size:1.4em;
+      // font-size:1.4em;
+      font-size:120%;
     }
     blockquote:before {
       color: #ccc;
@@ -265,16 +268,16 @@ nav {
   }
 
 
-  h5 {
-    margin:0.45em 0 0;
+  h6.name {
+    margin:0.65em 0 0;
     text-transform:uppercase;
     letter-spacing:2px;
     color:$primary-color;
-    font-size:1.1em;
+    font-size:94%;
   }
   h6 {
     color:$dark-gray;
-    font-size:0.7em;
+    font-size:60%;
     text-transform:uppercase;
     letter-spacing:2px;
     font-family:$body-font-family;
@@ -330,6 +333,13 @@ nav {
 
   }
   
+}
+@media screen and (min-width: 40em) {
+  .speakers-secondary {
+    .cell {
+      padding:0 3.5em !important;
+    }
+  }
 }
 
 .feature-list {

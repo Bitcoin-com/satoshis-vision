@@ -1,27 +1,9 @@
 [ 
 
   {
-    "name": "Amaury Séchet",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
-    "position": "Lead Developer,<br>Bitcoin ABC"
-  },
-
-  {
     "name": "Peter Rizun",
     "image": "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
     "position": "Chief Scientist,<br>Bitcoin Unlimited"
-  },
-
-  {
-    "name": "Tom Harding",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg",
-    "position": "Lead Developer,<br>Bitcoin XT"
-  },
-
-  {
-    "name": "Andrew Stone",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg",
-    "position": "Lead Developer,<br>Bitcoin Unlimited"
   },
 
   {
