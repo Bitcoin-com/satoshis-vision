@@ -49,7 +49,7 @@
 
       <div class="text-center title-section">
         <h3>Developing the Protocol 
-          <span>Building the Permissionless Economy</span>
+
         </h3>
       </div>
 
@@ -72,13 +72,35 @@
 
       <div class="text-center title-section">
         <h3>Researching for the Future
-          <span>Merchant solutions, micro-transaction economy, on chain solutions, and more.</span>
+          
         </h3>
       </div>
       
       <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
 
-     {{#each speakers}}   
+     {{#each developers}}   
+      <div class="large-4 small-6 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+      </div>
+      {{/each}}
+
+      </div>
+
+      <div class="text-center title-section">
+        <h3>Building the permissionsless economy
+          
+        </h3>
+      </div>
+      
+      <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
+
+     {{#each builders}}   
       <div class="large-4 small-6 cell text-center">
         <div class="speaker">
           <div class="headshot">
