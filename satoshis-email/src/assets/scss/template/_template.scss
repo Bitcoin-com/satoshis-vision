@@ -1,0 +1,89 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html {
+  background: #EDDFCE !important;
+}
+body, .body {
+  background:#EDDFCE url('../assets/img/stain.png') no-repeat center right !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #EDDFCE;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #444;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px 20px 0;
+}
+
+.header .container {
+  background: transparent;
+}
+
+.text-center {
+  text-align:center;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.callout {
+  background:#D6DDD6;
+  border-color:#C1C7C0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: uppercase;
+  letter-spacing:1px;
+  text-align:center;
+
+}
+
+h1 {
+  margin-bottom:0;
+  line-height:1.1;
+}
+
+p.lead {
+  text-align:center;
+  color:$primary-color;
+  margin-bottom:15px
+
+}
