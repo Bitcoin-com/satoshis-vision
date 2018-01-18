@@ -1,0 +1,27 @@
+
+<div class="grid-x grid-padding-x">
+
+<div class="large-10 large-offset-1 cell">
+  
+
+  <div class="text-center title-section">
+    <h3>Media Partners 
+      <span>Watch for updates on the following Media Publications</span>
+    </h3>
+  </div>
+
+  <div class="grid-x grid-padding-x">
+
+     {{#each media}}   
+      <div class="large-4 small-4 cell text-center">
+        <a href="{{this.link}}" title="{{this.name}}" target="_blank">
+          <img src="{{this.image}}" alt="{{this.name}}">
+        </a>
+      </div>
+      {{/each}}
+
+
+  </div>
+
+  </div>
+
