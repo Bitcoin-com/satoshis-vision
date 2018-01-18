@@ -46,6 +46,8 @@ Now `cd` to your project name and to start your project run
 foundation watch
 ```
 
+
+
 ### Manual Setup
 
 To manually set up the template, first download it with Git:
