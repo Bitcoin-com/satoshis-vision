@@ -1,4 +1,3 @@
-{{!-- This is the base layout for your project, and will be used on every page. --}}
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -6,15 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
-    <title>{{#if title}}
-        {{title}}
-      {{else}}
-        Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan
-      {{/if}}
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <title>
+        Thanks | Satoshi&#x27;s Vision | Bitcoin Cash Conference
     </title>
-    <meta name="description" content="{{description}}"/>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <meta name="description" content="A warm thank you"/>
+    <link rel="stylesheet" href="assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,8 +53,31 @@
     </div>
   </div>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+    <div class="content">
+    <div class="grid-container stain">
+    <div class="grid-x grid-padding-x">
+      <div class="large-10 large-offset-1 cell">
+    
+         <div class="text-center title-section">
+          <h1>Thank you
+            <span>Your submission has been received</span>
+          </h1>
+          </div>
+     
+      <div class="grid-x grid-padding-x">
+    
+        <div class="large-12 cell">
+           
+          <p>Thank you! We're pleased to tell you that your submission has been sent. We will reply to you as soon as possible. In the meantime please feel free to <a href="https://twitter.com/satoshis_vision">follow us on twitter @satoshis_vision.</a></p>
+      </div>
+     
+          
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="feature-list"></div>
 
 
     
@@ -117,7 +136,7 @@
     
   </footer>
 
-    <script src="{{root}}assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",

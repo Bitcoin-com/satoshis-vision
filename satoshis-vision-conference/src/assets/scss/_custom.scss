@@ -5,7 +5,7 @@ $paperbg: #EDDFCD;
 
 
 .marketing-site-hero {
-  background: url('../../assets/img/satoshis-vision-conference.png') 50% 50% no-repeat;
+  background: url('../../assets/img/satoshis-vision-conference.jpg') 50% 50% no-repeat;
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -119,7 +119,7 @@ $paperbg: #EDDFCD;
 }
 
 .grid-container {
-  padding:4em 0;
+  padding:3em 0 2em;
 }
 
 .media {
@@ -180,6 +180,53 @@ nav {
 
 }
 
+@include breakpoint(medium) {
+    #primary-menu {
+    position:absolute;
+    right:0;
+    top:0;
+    width:100%;
+    z-index:3;
+    font-size:0.8em;
+    background:transparent !important;
+  }
+  body .top-bar, .top-bar ul {
+      background:transparent;
+      li a {
+        color:$primary-color;
+      }
+    }
+  }
+
+  @include breakpoint(small) {
+    body .top-bar, .top-bar ul {
+      background:$black;
+      a {
+        color:$white;
+      }
+    }
+  }
+
+
+
+.top-bar {
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:0.9em;
+
+  .menu {
+    text-align:center;
+  }
+}
+
+
+.title-bar-title {
+  text-transform:uppercase;  
+  letter-spacing:2px;
+  font-weight:normal;
+  padding-left:.5em;
+}
+
 //sections
 
 .title-section {
@@ -238,6 +285,11 @@ nav {
 
 .content {
   background:$paperbg;
+}
+
+
+small {
+  word-break:break-all;
 }
 
 iframe {

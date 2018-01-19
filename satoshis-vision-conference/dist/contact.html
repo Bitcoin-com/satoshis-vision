@@ -1,4 +1,3 @@
-{{!-- This is the base layout for your project, and will be used on every page. --}}
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -6,15 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
-    <title>{{#if title}}
-        {{title}}
-      {{else}}
-        Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan
-      {{/if}}
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <title>
+        Contact | Satoshi&#x27;s Vision | Bitcoin Cash Conference
     </title>
-    <meta name="description" content="{{description}}"/>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <meta name="description" content="Contact us if you have any questions about the conference or are interested in sponsorship."/>
+    <link rel="stylesheet" href="assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,8 +53,55 @@
     </div>
   </div>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+    <div class="content">
+    <div class="grid-container stain">
+    <div class="grid-x grid-padding-x">
+      <div class="large-10 large-offset-1 cell">
+         <div class="text-center title-section">
+          <h1>Contact Us 
+            <span>We'd love to hear from you</span>
+          </h1>
+          </div>
+      <div class="grid-x grid-padding-x grid-container">
+        
+        <div class="large-6 cell">
+          <p>Contact us if you have any questions about the conference or are interested in sponsorship. Please feel free to <a target="_blank" href="mailto:info@satoshisvisionconference.com">email us</a> and we'll get back to you as soon as possible. </p>
+    
+          <h3>Sponsorships</h3>
+          <p>Interested in sponsorship opportunities? Please contact us directly at info@satoshisvisionconference.com to discuss availability.</p>
+          
+        </div>
+    
+        <div class="large-6 cell">
+          <form action="https://formspree.io/info@satoshisvisionconference.com"
+              method="POST">
+              <label>Full Name
+                <input type="text" placeholder="Full Name" name="name" required>
+              </label>
+              <label>Email
+                <input type="email" placeholder="Email" name="_replyto" required>
+              </label>
+              <label>Message
+                <textarea placeholder="Your Message" name="message" rows="4" required></textarea>
+              </label>
+              <input type="hidden" name="_subject" value="New submission from website!" />
+              <input type="hidden" name="_next" value="/thanks.html" />
+              <input type="text" name="_gotcha" style="display:none" />
+            <input type="submit" class="button round" value="Send">
+          </form>
+          
+        </div>
+    
+    
+       
+      </div>
+          
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="feature-list"></div>
 
 
     
@@ -117,7 +160,7 @@
     
   </footer>
 
-    <script src="{{root}}assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
