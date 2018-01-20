@@ -3,7 +3,14 @@
 
 $paperbg: #EDDFCD;
 
-
+.marketing-site-hero.inner-page {
+  height:65vh;
+  background:url("../../assets/img/satoshis-vision-conference.jpg") 50% 5% no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position:relative;
+}
 .marketing-site-hero {
   background: url('../../assets/img/satoshis-vision-conference.jpg') 50% 50% no-repeat;
   height: 100vh;
