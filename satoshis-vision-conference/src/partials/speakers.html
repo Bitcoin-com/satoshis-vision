@@ -112,27 +112,48 @@
       </div>
       {{/each}}
 
+
+
+      <div class="text-center title-section">
+        <h3>We are pleased to announce more speakers!
+        <span>Speakers at the conference represent a wide variety of backgrounds and expertise including:
+
+        <ul class="inline-list">
+        <li>&bull; Academic Research</li>
+        <li>&bull; Business</li>
+        <li>&bull; Bitcoin Cash Community and Adoption</li>
+        <li>&bull; Investment and Economic Theory</li>
+        <li>&bull; Technical Development.</li>
+        </ul></span>
+        </h3>
+      </div>
       
+      <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
 
-       <div class="cell text-center">
+     {{#each additional}}   
+      <div class="large-4 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+      </div>
+      {{/each}}
 
-          <div class="text-center title-section">
-            <h4>More speakers will be added in the coming weeks
-              <span>Check back soon for additional speakers.</span>
-            </h4>
+      <div class="large-8 cell keynote-speaker speaker">
+        
+        <div class="headshot">
+          <h4>A Message from the Conference Chair<br>
+          </h4>
+            <blockquote>On behalf of Bitcoin Unlimited, I would like to welcome you to Tokyo for Satoshi's Vision Conference. The speakers and attendees at this conference are thinkers and doers. Not only is their work groundbreaking and innovative, it is also directed towards an important goal: building the future of money. By working to create sound money the whole world can use, we will bring Satoshi's Vision to reality."
+            <cite>Antony Zegers
+          </cite>
+            </blockquote>
           </div>
 
-              <div class="callout secondary grid-container">
-              <h4>Would you like to present?</h4>
-
-              <p>Researchers, academics, developers, and enthusiasts are all welcome! Submissions should be 1-2 pages in length, and outline the topic of the proposed talk, why it is important, and a description of what the attendees will learn.</p>
-              <p><strong>Proposals due Jan 20th 2018</strong> – Please submit presentation proposals to:
-                <a href="mailto:presentations@satoshisvisionconference.com">presentations@satoshisvisionconference.com</a></p>
-                <div class="text-center">
-                  <a class="button round" href="mailto:presentations@satoshisvisionconference.com"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Submit a Proposal</a>
-                </div>
-              </div>
-            </div>
+      </div>
 
       </div>
     </div>
