@@ -296,15 +296,18 @@ nav {
 
 .home-speakers {
   background:url('../../assets/img/stain.png') no-repeat center right;
+  -webkit-transform: translate3d(0,0,0);
   // background-size:600px;
 }
 
 .speakers {
     background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .stain {
         background: url('../../assets/img/stain.png') no-repeat center right;
+        -webkit-transform: translate3d(0,0,0);
 
 }
 
@@ -336,7 +339,7 @@ iframe {
       padding: 0.5em;
       background: #D9C9B4;
       box-shadow: 0 3px 5px rgba(0,0,0,0.05);
-
+      
     .headshot {
       padding-top:1em;
       &:after {
@@ -405,6 +408,7 @@ iframe {
     -o-transition: all 500ms;
     transition: all 500ms;
     opacity:0.7;
+    -webkit-transform: translate3d(0,0,0);
     &:hover {
       -webkit-filter: sepia(0);
     filter: sepia(0);
@@ -419,13 +423,14 @@ iframe {
     background: $white;
     box-shadow: 0 3px 5px rgba(0,0,0,0.05);
     overflow: hidden;
-
+    -webkit-transform: translate3d(0,0,0);
     &:before {
       content: ""; height: 3px;
       position: absolute;
       left: 0;
       right: 0;
       -webkit-clip-path: polygon(0% 0%, 5%  100%, 10% 0%, 15%  100%, 20% 0%, 25% 100%, 30% 0%, 35%  100%, 40% 0%, 45%  100%, 50% 0%, 55%  100%, 60% 0%, 65%  100%, 70% 0%, 75%  100%, 80% 0%, 85%  100%, 90% 0%, 95%  100%, 100% 0%);
+      -webkit-transform: translate3d(0,0,0);
     }
     &:after {
       content: ""; height: 3px;
@@ -433,6 +438,7 @@ iframe {
       left: 0;
       right: 0;
       -webkit-clip-path: polygon(0% 0%, 5%  100%, 10% 0%, 15%  100%, 20% 0%, 25% 100%, 30% 0%, 35%  100%, 40% 0%, 45%  100%, 50% 0%, 55%  100%, 60% 0%, 65%  100%, 70% 0%, 75%  100%, 80% 0%, 85%  100%, 90% 0%, 95%  100%, 100% 0%);
+      -webkit-transform: translate3d(0,0,0);
     }
     &:before {
       background-color: #EDDFCE;
@@ -450,7 +456,7 @@ iframe {
 
 .feature-list {
     background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
-
+-webkit-backface-visibility: hidden;
   position:relative;
   padding-bottom:3em;
 
