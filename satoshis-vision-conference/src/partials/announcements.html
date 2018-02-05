@@ -1,0 +1,38 @@
+{{#each latestannouncement}}   
+  <article class="post" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <h4 class="post-title" itemprop="name headline">{{this.title}}</h4>
+      <p class="post-meta"><time class="post-time" itemprop="datePublished">{{this.date}}</time>
+      </p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p>{{this.description}}</p>
+    </div>
+  </article>
+  
+{{/each}}
+
+{{#unlesspage 'index'}}
+
+{{#each announcements}}   
+  <article class="post" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <h4 class="post-title" itemprop="name headline">{{this.title}}</h4>
+      <p class="post-meta"><time class="post-time" itemprop="datePublished">{{this.date}}</time>
+      </p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <p>{{this.description}}</p>
+    </div>
+  </article>
+  
+{{/each}}
+
+{{/unlesspage}}
+
+
+
+
+

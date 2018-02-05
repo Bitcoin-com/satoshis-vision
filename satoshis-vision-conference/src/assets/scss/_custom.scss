@@ -131,7 +131,7 @@ $paperbg: #EDDFCD;
 
 .media {
   position:relative;
-  padding:6em 0 3em;
+  padding:6em 0 5em;
    &:after {
     content:"";
     position:absolute;
@@ -313,6 +313,8 @@ nav {
 
 .content {
   background:$paperbg;
+  padding-bottom:4em;
+  
 }
 
 
@@ -333,6 +335,12 @@ iframe {
 
   .cell {
         margin-bottom:2em;
+  }
+
+  .conf-chair {
+    blockquote {
+      font-size:80%;
+    }
   }
 
   .keynote-speaker {
@@ -543,5 +551,40 @@ footer {
     border-radius:3px;
     padding:0.5rem;
     
+  }
+}
+
+@include breakpoint(small) {
+  .callout.announcements {
+    margin:2em 0;
+  }
+}
+@include breakpoint(medium) {
+  .callout.announcements {
+    margin:0 0 1rem 0;
+  }
+}
+
+article {
+  h4.post-title {
+    color:$dark-gray;
+    font-size:0.8em;
+    text-align:center;
+    font-family:$body-font-family;
+    margin-bottom:0;
+    text-transform: uppercase;
+    letter-spacing:1px;
+  }
+  time {
+    font-size:0.8rem;
+    color:#999;
+  }
+  .post-meta {
+    margin-bottom:0;
+    padding:5px;
+    color:$primary-color;
+  }
+  p {
+    font-size:0.8em;
   }
 }
