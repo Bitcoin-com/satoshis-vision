@@ -4,12 +4,44 @@
 $paperbg: #EDDFCD;
 
 .marketing-site-hero.inner-page {
-  height:65vh;
-  background:url("../../assets/img/satoshis-vision-conference.jpg") 50% 5% no-repeat;
+  height:75vh;
+  background:url("../../assets/img/satoshis-vision-conference.jpg") 50% 15% no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   position:relative;
+  .header-sponsors {
+    margin-top:5em;
+        @include breakpoint(small) {
+    margin-bottom:4em;
+
+        }
+
+        @include breakpoint(medium) {
+    margin-bottom:0;
+
+        }
+    h5 {
+    margin-top:1em;
+    text-shadow:0 1px 3px rgba(0,0,0,0.2);
+    }
+    .button {
+    @include breakpoint(small) {
+      margin:0;
+      padding:5px;
+        img {
+          width:100px;
+        }
+      }
+    @include breakpoint(medium) {
+    margin:0 1em;
+      img {
+          width:120px;
+        }
+      }
+      
+    }
+  }
 }
 .marketing-site-hero {
   background: url('../../assets/img/satoshis-vision-conference.jpg') 50% 50% no-repeat;
@@ -18,6 +50,41 @@ $paperbg: #EDDFCD;
   display: flex;
   align-items: center;
   position:relative;
+
+.header-sponsors {
+  color:$white;
+  text-align:center;
+  margin-top:6em;
+  margin-bottom:4em;
+  h5 {
+    margin-top:1em;
+    text-shadow:0 1px 3px rgba(0,0,0,0.2);
+  }
+}
+  .button {
+    @include breakpoint(small) {
+      margin:0;
+      padding:5px;
+        img {
+          width:120px;
+        }
+      }
+    @include breakpoint(medium) {
+    margin:0 1em;
+      img {
+          width:150px;
+        }
+      }
+      
+    }
+
+    .slide-down {
+      color:$white;
+      text-shadow:0 1px 3px rgba(0,0,0,0.2);
+      position:relative;
+      z-index:5;
+
+    }
 
   
   &:after {
@@ -43,6 +110,8 @@ $paperbg: #EDDFCD;
     display:flex;
     height:95vh;
     position:relative;
+
+
 
      &:after {
     content:"";
@@ -108,6 +177,9 @@ $paperbg: #EDDFCD;
   letter-spacing:3px;
   font-size:0.9em;
   font-family:georgia,serif;
+}
+.button.radius {
+  border-radius:5px;
 }
 
 .button.round {
@@ -214,8 +286,6 @@ nav {
     }
   }
 
-
-
 .top-bar {
   text-transform:uppercase;
   letter-spacing:2px;
@@ -229,6 +299,7 @@ nav {
     }
     .button {
       color:$white;
+      padding:0.55rem 0.5rem;
       i {
         font-size:0.8rem;
         line-height:0.8rem;

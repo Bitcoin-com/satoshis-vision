@@ -12,7 +12,7 @@ import Foundation from 'foundation-sites';
 
 $(document).foundation();
 
-$(".marketing-site-hero .button").click(function() {
+$(".marketing-site-hero .slide-down").click(function() {
     $('html,body').animate({
         scrollTop: $(".grid-container").offset().top},
         'slow');
