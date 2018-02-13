@@ -462,6 +462,7 @@ iframe {
     }
 
 
+
   h6.name {
     margin:0.65em 0 0;
     text-transform:uppercase;
@@ -529,6 +530,13 @@ iframe {
     }
 
   }
+
+  .vinny-speaker {
+      blockquote {
+        padding:0.5em 0.8em 0 !important;
+        font-size:1em;
+      }
+    }
   
 }
 
