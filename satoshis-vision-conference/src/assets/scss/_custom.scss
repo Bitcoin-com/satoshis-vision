@@ -438,6 +438,17 @@ iframe {
     
   }
 
+  .emcee-speaker {
+    blockquote {
+      padding:1.5em 0.8em;
+      
+    }
+    blockquote:before {
+      content:"";
+      display:none;
+    }
+  }
+
   blockquote {
 
       padding:3.5em 0.8em 3.3em;
