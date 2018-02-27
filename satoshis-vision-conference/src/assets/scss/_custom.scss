@@ -680,3 +680,89 @@ article {
     font-size:0.8em;
   }
 }
+
+.promotion {
+  padding:0 5rem;
+  margin-bottom:2rem;
+  
+}
+
+.timeline {
+
+  .time {
+    padding-top:2.5rem !important;
+    color:$primary-color;
+    margin-left:0 !important;
+    // padding-top:0.5rem !important;
+    padding-bottom:0.5rem !important;
+
+  }
+  .details {
+    position:relative;
+    padding-top:0 !important;
+    padding-bottom:0.5rem !important;
+    padding-left:2rem !important;
+    h4 {
+      padding-top:1rem;
+      font-size:1.2rem;
+      padding-left:1rem;
+    }
+    h6 {
+      color:$primary-color;
+      padding-left:1rem;
+    }
+    img {
+      border-radius:50%;
+      border:3px solid #EDDFCE;
+      -webkit-transition: border-color 250ms;
+      -moz-transition: border-color 250ms;
+      -o-transition: border-color 250ms;
+      transition: border-color 250ms;
+      &:hover, &:focus, &:active {
+        border:3px solid $primary-color;
+      }
+    }
+    &:before {
+      content:"";
+      position:absolute;
+      left:0;
+      top:0;
+      height:100%;
+      width:2px;
+      background:$black;
+    }
+    &:after {
+      content:"";
+      position:absolute;
+      left:-13px;
+      top:2.5rem;
+      background-image: url(../../assets/img/rising-sun.png);
+      background-position:center center;
+      background-size:cover;
+      height:26px;
+      width:26px;
+      margin:0 auto;
+      text-align:center;
+      z-index:2;
+    }
+  }
+
+  .dropdown-pane {
+    border: 0;
+    background:#fefefe;
+    margin-bottom:1rem;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  }
+}
+
+
+$tab-background: none;
+$tab-background-active: $black;
+$tab-margin:0rem;
+$tab-color:$white;
+$tab-active-color: $white;
+$tab-item-background-hover: $black;
+$tab-content-background: none;
+$tab-content-border:0;
+// $tab-item-font-size: 1rem;
+
