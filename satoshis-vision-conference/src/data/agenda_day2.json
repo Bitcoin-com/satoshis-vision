@@ -80,7 +80,7 @@
                     "time" : "14:30pm - 15:00pm",
                     "title" : "Statistical data on Bitcoin vs. Bitcoin Cash",
                     "name" : "Nikita Zhavoronkov",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg"
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg"
                     },          
           {
           "time" : "15:00am - 15:20am",
@@ -98,7 +98,7 @@
                     "time" : "15:50pm - 16:20pm",
                     "title" : "TBD",
                     "name" : "TBD",
-                    "photo" : "assets/img/speakers/other.jpg"
+                    "photo" : "assets/img/speakers/bitcoin.jpg"
                     },
 
                     {
@@ -106,6 +106,13 @@
                     "title" : "Topic TBD",
                     "name" : "Panel A",
                     "photo" : "assets/img/speakers/panel.jpg"
+                    },
+
+                    {
+                    "time" : "Evening",
+                    "title" : "TKP GardenCity",
+                    "name" : "Banquet",
+                    "photo" : "assets/img/speakers/other.jpg"
                     }
                     
     ]
