@@ -104,14 +104,14 @@
                     {
                     "time" : "16:20pm - 17:00pm",
                     "title" : "Topic TBD",
-                    "name" : "Panel A",
+                    "name" : "Panel B",
                     "photo" : "assets/img/speakers/panel.jpg"
                     },
 
                     {
                     "time" : "Evening",
                     "title" : "TKP GardenCity",
-                    "name" : "Banquet",
+                    "name" : "Banquet Dinner",
                     "photo" : "assets/img/speakers/other.jpg"
                     }
                     
