@@ -553,7 +553,9 @@ iframe {
   
 }
 
-
+.home-agenda {
+  padding-top:2em;
+}
 .feature-list {
     background:$paperbg url('../../assets/img/stain.png') no-repeat center right;
 -webkit-backface-visibility: hidden;
@@ -687,6 +689,13 @@ article {
   
 }
 
+.time-wrap {
+  margin-top:2rem;
+  margin-bottom:3rem;
+  h4 {
+    margin-bottom:2rem;
+  }
+}
 .timeline {
 
   .time {
@@ -695,6 +704,7 @@ article {
     margin-left:0 !important;
     // padding-top:0.5rem !important;
     padding-bottom:0.5rem !important;
+    font-size:0.9em;
 
   }
   .details {
@@ -703,13 +713,15 @@ article {
     padding-bottom:0.5rem !important;
     padding-left:2rem !important;
     h4 {
-      padding-top:1rem;
+      padding-top:0.25rem;
       font-size:1.2rem;
       padding-left:1rem;
+      margin-bottom:0;
     }
     h6 {
       color:$primary-color;
       padding-left:1rem;
+      font-size:0.8rem;
     }
     img {
       border-radius:50%;
@@ -718,9 +730,9 @@ article {
       -moz-transition: border-color 250ms;
       -o-transition: border-color 250ms;
       transition: border-color 250ms;
-      &:hover, &:focus, &:active {
-        border:3px solid $primary-color;
-      }
+      // &:hover, &:focus, &:active {
+      //   border:3px solid $primary-color;
+      // }
     }
     &:before {
       content:"";
@@ -756,12 +768,22 @@ article {
 }
 
 
+.tabs {
+  .tabs-title {
+    a {
+      &:hover, &:focus, &:active {
+        background:$primary-color;
+      }
+    }
+  }
+}
+
 $tab-background: none;
-$tab-background-active: $black;
+$tab-background-active: $primary-color;
 $tab-margin:0rem;
 $tab-color:$white;
 $tab-active-color: $white;
-$tab-item-background-hover: $black;
+$tab-item-background-hover: $primary-color;
 $tab-content-background: none;
 $tab-content-border:0;
 // $tab-item-font-size: 1rem;

@@ -1,0 +1,309 @@
+<div class="grid-x grid-padding-x">
+  <div class="large-10 large-offset-1 cell">
+
+      <div class="text-center title-section">
+        <h1>Agenda
+          <span>Check out our schedule of events and agenda.</span>
+        </h1>
+      </div>
+
+      <div class="promotion">
+        <a href="https://www.meetup.com/Tokyo-Bitcoin-Cash-Meetup-Group/events/qgsbcpyxfbsb/" target="_blank">
+          <img src="assets/img/bitcoin-cash-meetup-tokyo.jpg" alt="Bitcoin Cash Meetup Tokyo">
+        </a>
+      </div>
+
+<ul class="tabs grid-x grid-margin-x" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" data-tabs id="deeplinked-tabs">
+    <li class="tabs-title is-active cell small-4"><a href="#march23" aria-selected="true" class="button secondary radius"><h6>Day One</h6>Friday, March 23</a></li>
+    <li class="tabs-title cell small-4"><a href="#march24" class="button secondary radius"><h6>Day Two</h6>Saturday, March 24</a></li>
+    <li class="tabs-title cell small-4"><a href="#march25" class="button secondary radius"><h6>Day Three</h6>Sunday, March 25</a></li>
+  </ul>
+
+  <div class="tabs-content" data-tabs-content="deeplinked-tabs">
+    <div class="tabs-panel is-active" id="march23">
+      
+      <div class="grid-x grid-padding-x">
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Friday AM</h4>
+          
+          {{#agenda_day1}}
+
+                  {{#morning}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                                <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/morning}}
+                  
+              {{/agenda_day1}}
+          
+        </div><!--  end medium-6 -->
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Friday PM</h4>
+
+
+          {{#agenda_day1}}
+
+                  {{#afternoon}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                              <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/afternoon}}
+                  
+              {{/agenda_day1}}
+
+
+        </div>
+
+      </div><!--  end grid -->
+
+
+    </div>
+    <div class="tabs-panel" id="march24">
+      <div class="grid-x grid-padding-x">
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Saturday AM</h4>
+          
+          {{#agenda_day2}}
+
+                  {{#morning}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                                <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/morning}}
+                  
+              {{/agenda_day2}}
+          
+        </div><!--  end medium-6 -->
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Saturday PM</h4>
+
+
+          {{#agenda_day2}}
+
+                  {{#afternoon}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                              <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/afternoon}}
+                  
+              {{/agenda_day2}}
+
+
+        </div>
+
+      </div><!--  end grid -->
+    </div>
+    <div class="tabs-panel" id="march25">
+      <div class="grid-x grid-padding-x">
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Sunday AM</h4>
+          
+          {{#agenda_day3}}
+
+                  {{#morning}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                                <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/morning}}
+                  
+              {{/agenda_day3}}
+          
+        </div><!--  end medium-6 -->
+
+        <div class="medium-6 cell time-wrap">
+          
+          <h4 class="text-center">Sunday PM</h4>
+
+
+          {{#agenda_day3}}
+
+                  {{#afternoon}}
+
+                      <div class="grid-x grid-padding-x timeline">
+                          
+                          <div class="time cell small-4">
+                            {{time}}
+                          </div>
+
+                          <div class="details cell small-8">
+                            <div class="grid-x grid-padding-y">
+                              <div class="cell small-4">
+                              <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                              <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                              <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                              </div>
+                              <div class="cell small-8">
+                                {{#if name}}
+                                    <h4>{{name}}</h4>
+                                    <h6>{{title}}</h6>
+                                  {{else}}
+                                    <h4>{{title}}</h4>
+                                  {{/if}}
+                              </div>
+                            </div>
+                          </div>
+
+                      </div><!-- end timeline item -->
+
+                  {{/afternoon}}
+                  
+              {{/agenda_day3}}
+
+
+        </div>
+
+      </div><!--  end grid -->
+    </div>
+  </div>
+
+</div>
+
+</div>

@@ -1,117 +1,128 @@
-
 [ 
-
 
   {
 
     "morning" : [
 
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          },
+               {
+               "time" : "9:00am - 9:00am",
+               "photo": "assets/img/speakers/bitcoin.jpg",
+               "title" : "Welcome"
+               },
+                
+                    {
+                    "time" : "9:10am - 9:40am",
+                    "title" : "How to Make Bitcoin Cash the Best Money in the World",
+                    "name" : "Jerry Chan",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0006_Jerry David Chan.jpg"
+                    
+                    },
 
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          },
+                    {
+                    "time" : "9:40am - 10:10am",
+                    "title" : "Entice Me",
+                    "name" : "Daniel Krawisz",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0008_DanielKrawisz.jpg"
+                    
+                    },
 
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          },
+               {
+               "time" : "10:10am - 10:30am",
+               "photo": "assets/img/speakers/coffee.jpg",
+               "title" : "Coffee"
+                    },
+                
+                    {
+                    "time" : "10:30am - 11:00am",
+                    "title" : "TBD",
+                    "name" : "Emin Gün Sirer",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg"
+                    
+                    },
 
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          },
+                    {
+                    "time" : "11:00am - 11:30am",
+                    "title" : "Colored Coins",
+                    "name" : "Emil Oldenburg",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg"
+                    
+                    },
 
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          },
-
-          {
-          "time" : "8:30am - 9:30am",
-          "title" : " The title of the event",
-          "name" : "Peter Rizun",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
-          "description": "hello this is a description"
-          }
+                    {
+                    "time" : "11:30am - 12:00am",
+                    "title" : "Terabyte Block for Bitcoin Cash",
+                    "name" : "Joannes Vermorel",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg"
+                    
+                    },
+           
+               {
+               "time" : "12:00am - 13:30am",
+               "photo": "assets/img/speakers/lunch.jpg",
+               "title" : "Lunch"
+               }
                     
     ],
 
     "afternoon" : [
                     
                     {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
+                    "time" : "13:30pm - 14:00pm",
+                    "title" : "Bringing Bitcoin Cash to a Mainstream Audience",
+                    "name" : "Ryan X. Charles",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0005_RyanXCharles.jpg"
+                    
                     },
 
                     {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
+                    "time" : "14:00pm - 14:30pm",
+                    "title" : "Featured Talk",
+                    "name" : "Vinny Lingham",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-vinny-lingham.jpg"
+                    
                     },
 
                     {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
+                    "time" : "14:30pm - 15:00pm",
+                    "title" : "Zero-Confirmation Transactions",
+                    "name" : "Tom Harding",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg"
+                    
+                    },
+          
+          {
+          "time" : "15:00am - 15:20am",
+          "photo": "assets/img/speakers/coffee.jpg",
+          "title" : "Coffee"
+          },
+      
+                    {
+                    "time" : "15:20pm - 15:50pm",
+                    "title" : "An Efficient Stateless Storage for Blockchain Data",
+                    "name" : "Tomas van der Wansem",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0000_Tomas_van_der-Wansem2.jpg"
+                    
+                    },
+                         
+                    {"time" : "15:50pm - 16:20pm",
+                    "title" : "Transaction Order in Blocks",
+                    "name" : "Antony Zegers",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg"
+                    
                     },
 
                     {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
+                    "time" : "16:20pm - 17:00pm",
+                    "title" : "Topic TBD",
+                    "name" : "Panel A",
+                    "photo" : "assets/img/speakers/panel.jpg"
                     },
 
                     {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
-                    },
-
-                    {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
-                    },
-
-                    {
-                    "time" : "12:30pm - 1:30pm",
-                    "title" : " Brians Super Explainer",
-                    "name" : "Brian Levine",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg",
-                    "description": "hello this is a description"
+                         "time": "Evening",
+                         "title": "Sponsored by Bitcoin Cash Fund",
+                         "name": "Networking Event",
+                         "photo": "assets/img/speakers/bcf.jpg"
                     }
                     
     ]

@@ -1,0 +1,120 @@
+[ 
+
+
+  {
+
+    "morning" : [
+          {
+      "time" : "9:00am - 9:00am",
+          "title" : "Welcome",
+          "photo" : "assets/img/speakers/bitcoin.jpg"
+          },
+      
+      {
+          "time" : "9:10am - 9:40am",
+          "title" : "Good Investors: How to be one & why they matter",
+          "name" : "Christina Storey",
+          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0011_ChristinaStorey.jpg"
+          },
+
+          {
+          "time" : "9:40am - 10:10am",
+          "title" : "Integrating Bitcoin Cash to the Retail Market in Colombia",
+          "name" : "Boris Javier Barrera Garcia",
+          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0014_Boris Javier Barrera 1.jpg"
+          },
+
+          {
+      "time" : "10:10am - 10:30am",
+          "title" : "Coffee",
+          "photo" : "assets/img/speakers/coffee.jpg"
+          },
+      
+          {
+          "time" : "10:30am - 11:00am",
+          "title" : "Cryptocurrency Adoption in Africa",
+          "name" : "Lorien Gamaroff",
+          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0002_LorienGamaroff1.jpg"
+          },
+
+          {
+          "time" : "11:00am - 11:30am",
+          "title" : "Turing Complete Computation in Bitcoin",
+          "name" : "Clemens Ley",
+          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0010_ClemensLey.jpg"
+          },
+
+          {
+          "time" : "11:30am - 12:00am",
+          "title" : "Bitcoin Cash Integration at Coinbase",
+          "name" : "Josh Ellithorpe",
+          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg"
+          },
+ 
+ {
+      "time" : "12:00am - 13:30am",
+          "title" : "Lunch",
+          "photo" : "assets/img/speakers/lunch.jpg"
+          }
+      
+                   
+    ],
+
+    "afternoon" : [
+                    
+                    {
+                    "time" : "13:30pm - 14:00pm",
+                    "title" : "Bitcoin Cash and Open Bazaar",
+                    "name" : "Chris Pacia",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg"
+                    },
+          
+                    {
+                    "time" : "14:00pm - 14:30pm",
+                    "title" : "Bitcoin Network Topology: Small World vs Mesh",
+                    "name" : "Dr. Craig Wright",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg"
+                    },
+          
+                    {
+                    "time" : "14:30pm - 15:00pm",
+                    "title" : "Rocketr and Tippr",
+                    "name" : "Rob Danielson",
+                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg"
+                    },
+          
+                  {
+                  "time" : "15:00am - 15:20am",
+                  "title" : "Coffee",
+                  "photo" : "assets/img/speakers/coffee.jpg"
+                  },
+ 
+                {
+                    "time" : "15:20pm - 15:50pm",
+                    "title" : "TBD",
+                    "name" : "TBD",
+                    "photo" : "assets/img/speakers/other.jpg"
+                    },
+      
+                    {
+                    "time" : "15:50pm - 16:20pm",
+                    "title" : "Gold, crypto-gold and money ",
+                    "name" : "Brett Scott",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0013_BrettScott.jpg"
+                    },
+
+                    {
+                    "time" : "16:20pm - 17:00pm",
+                    "title" : "Topic TBD",
+                    "name" : "Panel C",
+                    "photo" : "assets/img/speakers/panel.jpg",
+                    "description": "Panel Discussion"
+                    }
+                    
+    ]
+
+
+  }
+  
+  
+] 
