@@ -2,37 +2,37 @@
 
   {
   "name": "Daniel Krawisz",
-  "position": "Co-Founder,<br> The Satoshi Nakamoto Institute",
+  "position": "Co-Founder,<br>The Satoshi Nakamoto Institute",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0008_DanielKrawisz.jpg" 
   },
 
   {
   "name": "Clemens Ley",
-  "position": "Co-founder and CTO,<br> Yours.org",
+  "position": "Co-founder and CTO,<br>Yours.org",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0010_ClemensLey.jpg" 
   },
 
   {
   "name": "Dr. Craig Wright",
-  "position": "Chief Scientist,<br> nChain",
+  "position": "Chief Scientist,<br>nChain",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg" 
   },
 
   {
   "name": "Emil Oldenburg",
-  "position": "CTO,<br> Bitcoin.com",
+  "position": "CTO,<br>Bitcoin.com",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg" 
   },
 
   {
   "name": "Brian Levine",
-  "position": "Professor,<br> University of Massachusetts Amherst",
+  "position": "Professor,<br>University of Massachusetts Amherst",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg" 
   },
 
   {
   "name": "Lorien Gamaroff",
-  "position": "CEO and co-founder,<br> Centbee",
+  "position": "CEO and co-founder,<br>Centbee",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0002_LorienGamaroff1.jpg" 
   },
 
@@ -44,19 +44,19 @@
 
   {
   "name": "Ken Shishido",
-  "position": "Co-organizer,<br> Tokyo Bitcoin Meetup Group",
+  "position": "Co-organizer,<br>Tokyo Bitcoin Meetup Group",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0003_KenShishido.jpg" 
   },
 
   {
   "name": "Tomas van der Wansem",
-  "position": "Developer,<br> Bitcrust",
+  "position": "Developer,<br>Bitcrust",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0000_Tomas_van_der-Wansem2.jpg" 
   },
 
   {
   "name": "Josh Ellithorpe",
-  "position": "Senior Engineer,<br> Coinbase",
+  "position": "Senior Engineer,<br>Coinbase",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg" 
   },
 
@@ -68,25 +68,25 @@
  
   {
   "name": "Boris Javier Barrera",
-  "position": "Founder and CEO,<br> Bitek S.A.S, Colombia",
+  "position": "Founder and CEO,<br>Bitek S.A.S, Colombia",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0014_Boris Javier Barrera 1.jpg" 
   },
 
   {
   "name": "Nikita Zhavoronkov",
-  "position": "CEO,<br> Blockchair",
+  "position": "CEO,<br>Blockchair",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg" 
   },
 
   {
   "name": "Julian Smith",
-  "position": "Founder and CEO,<br> Blockfreight",
+  "position": "Founder and CEO,<br>Blockfreight",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0004_Julian-Smith-150x150.jpg" 
   },
 
    {
   "name": "Jerry Chan",
-  "position": "Chief Digital Asset Solutions,<br> SBI BITS",
+  "position": "Chief Digital Asset Solutions,<br>SBI BITS",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0006_Jerry David Chan.jpg" 
   },
 
@@ -98,8 +98,14 @@
 
   {
   "name": "Antony Zegers",
-  "position": "Conference Chair,<br> Satoshi's Vision Conference",
+  "position": "Conference Chair,<br>Satoshi's Vision Conference",
   "image": "assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg" 
-  }
+  },
+
+  {
+    "name": "Eric Voskuil",
+    "position": "Lead Developer,<br>Libbitcoin",
+    "image": "assets/img/speakers/additional/satoshis-vision-conference-EricVoskuil.jpg"
+    }
 
 ]

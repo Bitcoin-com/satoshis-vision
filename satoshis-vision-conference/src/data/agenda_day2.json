@@ -83,7 +83,7 @@
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg"
                     },          
           {
-          "time" : "15:00am - 15:20am",
+          "time" : "15:00pm - 15:20pm",
           "title" : "Coffee",
           "photo" : "assets/img/speakers/coffee.jpg"
           },
@@ -96,9 +96,9 @@
       
                     {
                     "time" : "15:50pm - 16:20pm",
-                    "title" : "TBD",
-                    "name" : "TBD",
-                    "photo" : "assets/img/speakers/bitcoin.jpg"
+                    "title" : "Scaling Libbitcoin",
+                    "name" : "Eric Voskuil",
+                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-EricVoskuil.jpg"
                     },
 
                     {
