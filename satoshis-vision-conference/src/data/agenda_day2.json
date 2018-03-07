@@ -5,54 +5,54 @@
 
     "morning" : [
           {
-      "time" : "9:00am - 9:10am",
+      "time" : "9:00 - 9:10",
           "title" : "Welcome",
           "photo" : "assets/img/speakers/bitcoin.jpg"
           },
       
       {
-          "time" : "9:10am - 9:40am",
+          "time" : "9:10 - 9:40",
           "title" : "Bitcoin Cash Community in Japan",
           "name" : "Ken Shishido",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0003_KenShishido.jpg"
           },
 
           {
-          "time" : "9:40am - 10:10am",
+          "time" : "9:40 - 10:10",
           "title" : "vertical Paid Market",
           "name" : "Fang Yu",
           "photo" : "assets/img/speakers/additional/satoshis-vision-yu-fang.jpg"
           },
 
           {
-      "time" : "10:10am - 10:30am",
+      "time" : "10:10 - 10:30",
           "title" : "Coffee",
           "photo" : "assets/img/speakers/coffee.jpg"
           },
       
           {
-          "time" : "10:30am - 11:00am",
-          "title" : "TBD",
+          "time" : "10:30 - 11:00",
+          "title" : "Towards a light wallet on every phone",
           "name" : "Andrew Stone",
           "photo" : "assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg"
           },
 
           {
-          "time" : "11:00am - 11:30am",
+          "time" : "11:00 - 11:30",
           "title" : "Converging on Consensus",
           "name" : "Peter Rizun",
           "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg"
           },
 
           {
-          "time" : "11:30am - 12:00am",
+          "time" : "11:30 - 12:00",
           "title" : "Porting the Counterparty Protocol to Bitcoin Cash",
           "name" : "Julian Smith",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0004_Julian-Smith-150x150.jpg"
           },
  
  {
-      "time" : "12:00am - 13:30am",
+      "time" : "12:00 - 13:30",
           "title" : "Lunch",
           "photo" : "assets/img/speakers/lunch.jpg"
           }
@@ -63,46 +63,46 @@
     "afternoon" : [
                     
                     {
-                    "time" : "13:30pm - 14:00pm",
+                    "time" : "13:30 - 14:00",
                     "title" : "Keynote Speech",
                     "name" : "Roger Ver",
                     "photo" : "assets/img/speakers/satoshis-vision-RogerVer.jpg"
                     },
 
                     {
-                    "time" : "14:00pm - 14:30pm",
+                    "time" : "14:00 - 14:30",
                     "title" : "A Future Vision for Bitcoin Cash",
                     "name" : "Amaury Sechet",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg"
                     },
 
                     {
-                    "time" : "14:30pm - 15:00pm",
+                    "time" : "14:30 - 15:00",
                     "title" : "Statistical data on Bitcoin vs. Bitcoin Cash",
                     "name" : "Nikita Zhavoronkov",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg"
                     },          
           {
-          "time" : "15:00pm - 15:20pm",
+          "time" : "15:00 - 15:20",
           "title" : "Coffee",
           "photo" : "assets/img/speakers/coffee.jpg"
           },
                     {
-                    "time" : "15:20pm - 15:50pm",
+                    "time" : "15:20 - 15:50",
                     "title" : "Bobtail",
                     "name" : "Brian Levine",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg"
                     },
       
                     {
-                    "time" : "15:50pm - 16:20pm",
+                    "time" : "15:50 - 16:20",
                     "title" : "Scaling Libbitcoin",
                     "name" : "Eric Voskuil",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-EricVoskuil.jpg"
                     },
 
                     {
-                    "time" : "16:20pm - 17:00pm",
+                    "time" : "16:20 - 17:00",
                     "title" : "Payments and Commerce",
                     "name" : "Panel Discussion",
                     "photo" : "assets/img/speakers/panel.jpg"

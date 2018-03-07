@@ -5,13 +5,19 @@
     "morning" : [
 
                {
-               "time" : "9:00am - 9:10am",
+               "time" : "8:00 - 9:00",
+               "photo": "assets/img/speakers/register.jpg",
+               "title" : "Registration"
+               },
+
+               {
+               "time" : "9:00 - 9:10",
                "photo": "assets/img/speakers/bitcoin.jpg",
                "title" : "Welcome"
                },
                 
                     {
-                    "time" : "9:10am - 9:40am",
+                    "time" : "9:10 - 9:40",
                     "title" : "How to Make Bitcoin Cash the Best Money in the World",
                     "name" : "Jerry Chan",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0006_Jerry David Chan.jpg"
@@ -19,7 +25,7 @@
                     },
 
                     {
-                    "time" : "9:40am - 10:10am",
+                    "time" : "9:40 - 10:10",
                     "title" : "Entice Me",
                     "name" : "Daniel Krawisz",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0008_DanielKrawisz.jpg"
@@ -27,13 +33,13 @@
                     },
 
                {
-               "time" : "10:10am - 10:30am",
+               "time" : "10:10 - 10:30",
                "photo": "assets/img/speakers/coffee.jpg",
                "title" : "Coffee"
                     },
                 
                     {
-                    "time" : "10:30am - 11:00am",
+                    "time" : "10:30 - 11:00",
                     "title" : "TBD",
                     "name" : "Emin Gün Sirer",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg"
@@ -41,7 +47,7 @@
                     },
 
                     {
-                    "time" : "11:00am - 11:30am",
+                    "time" : "11:00 - 11:30",
                     "title" : "Colored Coins",
                     "name" : "Emil Oldenburg",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg"
@@ -49,7 +55,7 @@
                     },
 
                     {
-                    "time" : "11:30am - 12:00am",
+                    "time" : "11:30 - 12:00",
                     "title" : "Terabyte Block for Bitcoin Cash",
                     "name" : "Joannes Vermorel",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg"
@@ -57,7 +63,7 @@
                     },
            
                {
-               "time" : "12:00am - 13:30am",
+               "time" : "12:00 - 13:30",
                "photo": "assets/img/speakers/lunch.jpg",
                "title" : "Lunch"
                }
@@ -67,23 +73,23 @@
     "afternoon" : [
                     
                     {
-                    "time" : "13:30pm - 14:00pm",
-                    "title" : "Bringing Bitcoin Cash to a Mainstream Audience",
+                    "time" : "13:30 - 14:00",
+                    "title" : "Bringing Bitcoin Cash to a Mainstre Audience",
                     "name" : "Ryan X. Charles",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0005_RyanXCharles.jpg"
                     
                     },
 
                     {
-                    "time" : "14:00pm - 14:30pm",
+                    "time" : "14:00 - 14:30",
                     "title" : "Featured Talk",
-                    "name" : "Vinny Lingham",
+                    "name" : "Vinny Lingh",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-vinny-lingham.jpg"
                     
                     },
 
                     {
-                    "time" : "14:30pm - 15:00pm",
+                    "time" : "14:30 - 15:00",
                     "title" : "Zero-Confirmation Transactions",
                     "name" : "Tom Harding",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg"
@@ -91,20 +97,20 @@
                     },
           
           {
-          "time" : "15:00pm - 15:20pm",
+          "time" : "15:00 - 15:20",
           "photo": "assets/img/speakers/coffee.jpg",
           "title" : "Coffee"
           },
       
                     {
-                    "time" : "15:20pm - 15:50pm",
+                    "time" : "15:20 - 15:50",
                     "title" : "An Efficient Stateless Storage for Blockchain Data",
                     "name" : "Tomas van der Wansem",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0000_Tomas_van_der-Wansem2.jpg"
                     
                     },
                          
-                    {"time" : "15:50pm - 16:20pm",
+                    {"time" : "15:50 - 16:20",
                     "title" : "Transaction Order in Blocks",
                     "name" : "Antony Zegers",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg"
@@ -112,7 +118,7 @@
                     },
 
                     {
-                    "time" : "16:20pm - 17:00pm",
+                    "time" : "16:20 - 17:00",
                     "title" : "Tokens and Colored Coins",
                     "name" : "Panel Discussion",
                     "photo" : "assets/img/speakers/panel.jpg"
