@@ -344,8 +344,20 @@ nav {
   }
 }
 .intro {
-  background:$paperbg url('../../assets/img/bch-fade.png') no-repeat top center;
+  background:$paperbg url('../../assets/img/bch-fade.png') no-repeat 100% 50%;
   background-size:600px;
+  @include breakpoint(medium) {
+
+    .intro-content {
+      padding-top:1rem !important;
+    }
+  }
+  @include breakpoint(large) {
+
+    .intro-content {
+      padding-top:2rem !important;
+    }
+  }
   h1 {
     // font-size:2em;
     font-family:$header-font-family;
