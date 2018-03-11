@@ -89,22 +89,15 @@
                   "photo" : "assets/img/speakers/coffee.jpg"
                   },
  
-                {
-                    "time" : "15:20 - 15:50",
-                    "title" : "TBD",
-                    "name" : "TBD",
-                    "photo" : "assets/img/speakers/other.jpg"
-                    },
-      
                     {
-                    "time" : "15:50 - 16:20",
+                    "time" : "15:20 - 15:50",
                     "title" : "Gold, crypto-gold and money ",
                     "name" : "Brett Scott",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0013_BrettScott.jpg"
                     },
-
+      
                     {
-                    "time" : "16:20 - 17:00",
+                    "time" : "15:50 - 16:30",
                     "title" : "Marketing and Adoption",
                     "name" : "Panel Discussion",
                     "photo" : "assets/img/speakers/panel.jpg",
