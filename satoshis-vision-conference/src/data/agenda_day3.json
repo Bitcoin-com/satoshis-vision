@@ -70,14 +70,14 @@
                     },
           
                     {
-                    "time" : "14:00 - 14:30",
+                    "time" : "14:00 - 14:40",
                     "title" : "Bitcoin Network Topology: Small World vs Mesh",
                     "name" : "Dr. Craig Wright",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg"
                     },
           
                     {
-                    "time" : "14:30 - 15:00",
+                    "time" : "14:40 - 15:00",
                     "title" : "Rocketr and Tippr",
                     "name" : "Rob Danielson",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg"
@@ -97,7 +97,7 @@
                     },
       
                     {
-                    "time" : "16:00 - 16:30",
+                    "time" : "16:00 - 17:00",
                     "title" : "Marketing and Adoption: How do we get a BCH wallet on every phone?",
                     "name" : "Panel Discussion",
                     "photo" : "assets/img/speakers/panel.jpg",
