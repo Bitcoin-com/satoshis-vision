@@ -14,6 +14,7 @@
           "time" : "9:10 - 9:40",
           "title" : "Good Investors: How to be one & why they matter",
           "name" : "Christina Storey",
+          "url" : "https://www.youtube.com/watch?v=G0CntqF9AS8&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=22&t=0s",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0011_ChristinaStorey.jpg"
           },
 
@@ -21,6 +22,7 @@
           "time" : "9:40 - 10:10",
           "title" : "Integrating Bitcoin Cash to the Retail Market in Colombia",
           "name" : "Boris Javier Barrera Garcia",
+          "url" : "https://www.youtube.com/watch?v=hXgQETSs7fI&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=23&t=0s",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0014_Boris Javier Barrera 1.jpg"
           },
 
@@ -34,6 +36,7 @@
           "time" : "10:30 - 11:00",
           "title" : "Cryptocurrency Adoption in Africa",
           "name" : "Lorien Gamaroff",
+          "url" : "https://www.youtube.com/watch?v=tIFuNjAhZhg&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=24&t=0s",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0002_LorienGamaroff1.jpg"
           },
 
@@ -41,6 +44,7 @@
           "time" : "11:00 - 11:30",
           "title" : "Turing Complete Computation in Bitcoin",
           "name" : "Clemens Ley",
+          "url" : "https://www.youtube.com/watch?v=M6j-11H2O7c&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=25&t=0s",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0010_ClemensLey.jpg"
           },
 
@@ -48,6 +52,7 @@
           "time" : "11:30 - 12:00",
           "title" : "Bitcoin Cash Integration at Coinbase",
           "name" : "Josh Ellithorpe",
+          "url" : "https://www.youtube.com/watch?v=DUWz8pIPRWw&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=26&t=0s",
           "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg"
           },
  
@@ -66,6 +71,7 @@
                     "time" : "13:30 - 14:00",
                     "title" : "Bitcoin Cash and Open Bazaar",
                     "name" : "Chris Pacia",
+                    "url" : "https://www.youtube.com/watch?v=B1eJPSfWhmw&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=27&t=0s",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg"
                     },
           
@@ -73,6 +79,7 @@
                     "time" : "14:00 - 14:40",
                     "title" : "Bitcoin Network Topology: Small World vs Mesh",
                     "name" : "Dr. Craig Wright",
+                    "url" : "https://www.youtube.com/watch?v=HrVtC9r0sTU&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=28&t=0s",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg"
                     },
           
@@ -80,6 +87,7 @@
                     "time" : "14:40 - 15:00",
                     "title" : "Rocketr and Tippr",
                     "name" : "Rob Danielson",
+                    "url" : "https://www.youtube.com/watch?v=zJXPoL7KGng&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=29&t=0s",
                     "photo" : "assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg"
                     },
           
@@ -93,6 +101,7 @@
                     "time" : "15:30 - 16:00",
                     "title" : "Gold, crypto-gold and money",
                     "name" : "Brett Scott",
+                    "url" : "https://www.youtube.com/watch?v=XMlG1ipXqU4&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=30&t=0s",
                     "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0013_BrettScott.jpg"
                     },
       
@@ -100,6 +109,7 @@
                     "time" : "16:00 - 17:00",
                     "title" : "Marketing and Adoption: How do we get a BCH wallet on every phone?",
                     "name" : "Panel Discussion",
+                    "url" : "https://www.youtube.com/watch?v=dwRTgTu7cNQ&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=31&t=0s",
                     "photo" : "assets/img/speakers/panel.jpg",
                     "description": "Panel Discussion"
                     }
