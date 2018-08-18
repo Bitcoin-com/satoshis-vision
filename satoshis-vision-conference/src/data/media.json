@@ -2,19 +2,19 @@
 
   {
     "name": "Coingeek",
-    "image": "assets/img/media/coingeek.jpg",
+    "image": "/assets/img/media/coingeek.jpg",
     "link": "https://coingeek.com/"
   },
 
   {
     "name": "Bitcoin News",
-    "image": "assets/img/media/news-bitcoin.jpg",
+    "image": "/assets/img/media/news-bitcoin.jpg",
     "link": "https://news.bitcoin.com"
   },
 
   {
     "name": "Bitsonline",
-    "image": "assets/img/media/bitsonline.jpg",
+    "image": "/assets/img/media/bitsonline.jpg",
     "link": "https://bitsonline.com/"
   }
   

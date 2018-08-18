@@ -2,19 +2,19 @@
 
   {
     "name": "Peter Rizun",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
     "position": "Chief Scientist,<br>Bitcoin Unlimited"
   },
 
   {
     "name": "Emin Gün Sirer",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg",
     "position": "Associate Professor,<br>Cornell University"
   },
 
   {
     "name": "Joannes Vermorel",
-    "image": "assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg",
       "position": "Founder, Lokad"
   }
 

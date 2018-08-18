@@ -7,7 +7,7 @@
           {
       "time" : "9:00 - 9:10",
           "title" : "Welcome",
-          "photo" : "assets/img/speakers/bitcoin.jpg"
+          "photo" : "/assets/img/speakers/bitcoin.jpg"
           },
       
       {
@@ -15,7 +15,7 @@
           "title" : "Good Investors: How to be one & why they matter",
           "name" : "Christina Storey",
           "url" : "https://www.youtube.com/watch?v=G0CntqF9AS8&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=22&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0011_ChristinaStorey.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0011_ChristinaStorey.jpg"
           },
 
           {
@@ -23,13 +23,13 @@
           "title" : "Integrating Bitcoin Cash to the Retail Market in Colombia",
           "name" : "Boris Javier Barrera Garcia",
           "url" : "https://www.youtube.com/watch?v=hXgQETSs7fI&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=23&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0014_Boris Javier Barrera 1.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0014_Boris Javier Barrera 1.jpg"
           },
 
           {
       "time" : "10:10 - 10:30",
           "title" : "Coffee",
-          "photo" : "assets/img/speakers/coffee.jpg"
+          "photo" : "/assets/img/speakers/coffee.jpg"
           },
       
           {
@@ -37,7 +37,7 @@
           "title" : "Cryptocurrency Adoption in Africa",
           "name" : "Lorien Gamaroff",
           "url" : "https://www.youtube.com/watch?v=tIFuNjAhZhg&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=24&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0002_LorienGamaroff1.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0002_LorienGamaroff1.jpg"
           },
 
           {
@@ -45,7 +45,7 @@
           "title" : "Turing Complete Computation in Bitcoin",
           "name" : "Clemens Ley",
           "url" : "https://www.youtube.com/watch?v=M6j-11H2O7c&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=25&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0010_ClemensLey.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0010_ClemensLey.jpg"
           },
 
           {
@@ -53,13 +53,13 @@
           "title" : "Bitcoin Cash Integration at Coinbase",
           "name" : "Josh Ellithorpe",
           "url" : "https://www.youtube.com/watch?v=DUWz8pIPRWw&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=26&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg"
           },
  
  {
       "time" : "12:00 - 13:30",
           "title" : "Lunch",
-          "photo" : "assets/img/speakers/lunch.jpg"
+          "photo" : "/assets/img/speakers/lunch.jpg"
           }
       
                    
@@ -72,7 +72,7 @@
                     "title" : "Bitcoin Cash and Open Bazaar",
                     "name" : "Chris Pacia",
                     "url" : "https://www.youtube.com/watch?v=B1eJPSfWhmw&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=27&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg"
                     },
           
                     {
@@ -80,7 +80,7 @@
                     "title" : "Bitcoin Network Topology: Small World vs Mesh",
                     "name" : "Dr. Craig Wright",
                     "url" : "https://www.youtube.com/watch?v=HrVtC9r0sTU&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=28&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0009_CraigWright.jpg"
                     },
           
                     {
@@ -88,13 +88,13 @@
                     "title" : "Rocketr and Tippr",
                     "name" : "Rob Danielson",
                     "url" : "https://www.youtube.com/watch?v=zJXPoL7KGng&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=29&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0008_RobDanielson.jpg"
                     },
           
                   {
                   "time" : "15:00 - 15:30",
                   "title" : "Coffee",
-                  "photo" : "assets/img/speakers/coffee.jpg"
+                  "photo" : "/assets/img/speakers/coffee.jpg"
                   },
  
                     {
@@ -102,7 +102,7 @@
                     "title" : "Gold, crypto-gold and money",
                     "name" : "Brett Scott",
                     "url" : "https://www.youtube.com/watch?v=XMlG1ipXqU4&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=30&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0013_BrettScott.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0013_BrettScott.jpg"
                     },
       
                     {
@@ -110,7 +110,7 @@
                     "title" : "Marketing and Adoption: How do we get a BCH wallet on every phone?",
                     "name" : "Panel Discussion",
                     "url" : "https://www.youtube.com/watch?v=dwRTgTu7cNQ&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=31&t=0s",
-                    "photo" : "assets/img/speakers/panel.jpg",
+                    "photo" : "/assets/img/speakers/panel.jpg",
                     "description": "Panel Discussion"
                     }
                     
