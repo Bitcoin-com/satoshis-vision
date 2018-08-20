@@ -1,0 +1,16 @@
+[
+  {
+    "morning": [
+      {
+        "time": "",
+        "photo": "/assets/img/speakers/register.jpg",
+        "title": "How can double-spends of instant transactions be carried out today?"
+      },
+      {
+        "time": "",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Statistics on 0-conf double-spends"
+      }
+    ]
+  }
+]

@@ -1,7 +1,8 @@
 
 //globals
 
-$paperbg: #EDDFCD;
+$paperbg: #EDDFCC;
+$lakebg: #C2D1D4;
 
 .marketing-site-hero.inner-page {
   height:75vh;
@@ -43,6 +44,8 @@ $paperbg: #EDDFCD;
     }
   }
 }
+
+
 .marketing-site-hero {
   background: url('../../assets/img/satoshis-vision-conference.jpg') 50% 50% no-repeat;
   height: 100vh;
@@ -102,6 +105,31 @@ $paperbg: #EDDFCD;
   padding-top:12em;
 
   }
+}
+.italy2018-site-hero{
+  background: url('../../assets/img/italy-banner-satoshis-vision.jpeg') 50% 50% no-repeat;
+
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+
+h2 {font-size: 1.728em;}
+
+h3 {font-size: 1.44em;}
+
+h4 {font-size: 1.2em;}
+
+small, .font_small {font-size: 0.833em;}
 }
 
 .mailing.marketing-site-hero {
@@ -171,6 +199,10 @@ $paperbg: #EDDFCD;
     .button { width: 100%; margin: .5em 0 0 0; }
       
     }
+}
+
+.mailing.marketing-site-hero.italy2018{
+  background: url('../../assets/img/italy-satoshis-vision-banner2.jpeg') 50% 70% no-repeat;
 }
 
 .button {
@@ -778,7 +810,7 @@ article {
     position:relative;
     padding-top:0 !important;
     padding-bottom:0.5rem !important;
-    padding-left:2rem !important;
+    //padding-left:2rem !important;
     h4 {
       padding-top:0.25rem;
       font-size:1.2rem;
@@ -845,6 +877,145 @@ article {
         background:$primary-color;
       }
     }
+  }
+}
+
+
+
+.italy {
+  background: $lakebg;
+
+  iframe {
+    border: $lakebg 5px solid !important;
+  }
+
+  .marketing-site-hero{
+    background: url('../../assets/img/italy-banner-satoshis-vision.jpeg') 50% 50% no-repeat;
+
+
+    p {margin-bottom: 1.3em;}
+    
+    h1, h2, h3, h4 {
+      margin: 1.414em 0 0.5em;
+      font-weight: inherit;
+      line-height: 1.2;
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 2.074em;
+    }
+    
+    h2 {font-size: 1.728em;}
+    
+    h3 {font-size: 1.44em;}
+    
+    h4 {font-size: 1.2em;}
+    
+    small, .font_small {font-size: 0.833em;}
+  }
+
+  .timeline .details img {
+    border: 3px solid $lakebg;
+  }
+  .top-bar li a, .top-bar ul li a {
+    color: rgb(70, 56, 197);
+  }
+  .title-section h1 span, .title-section h3 span, .title-section h4 span {
+    color: rgb(70, 56, 197);
+  }
+  .tabs-title > a[aria-selected='true'] {
+    background: rgb(70, 56, 197);
+  }
+  .tabs .tabs-title a:hover, .tabs .tabs-title a:focus, .tabs .tabs-title a:active {
+    background: rgb(70, 56, 197);
+  }
+
+  .button {
+    background-color: rgb(70, 56, 197);
+  }
+  
+  .button:focus, 
+  .button:hover{
+    background-color: rgb(60, 43, 214)
+  }
+  .light {
+    background-color: #fff;
+  }
+
+  .header-sponsors {
+    margin-bottom: 2em;
+  }
+  
+  .marketing-site-hero .header-sponsors, 
+  .marketing-site-hero .slide-down,
+  .marketing-site-hero .marketing-site-hero-content p,
+  .marketing-site-hero .marketing-site-hero-content h3{
+    color: #2c2c2c;
+  }
+
+  .marketing-site-hero.italy2018-site-hero::after{
+    background: url(../../assets/img/rip_blue.png) 0 0 no-repeat;
+  }
+  .mailing.marketing-site-hero::before {
+    background: url(../../assets/img/rip_blue.png) 50% 0 no-repeat;
+  }
+  .mailing.marketing-site-hero::after,
+  .sponsors::after {
+    background: url(../../assets/img/ripbottom_blue.png) 50% 0 no-repeat;
+  }
+  
+  .details::before, .details::after{
+    content: none;
+  }
+  .sponsors::after{
+    content: none;
+  }
+}
+
+.previous{
+  background: #eee;
+  .marketing-site-hero{
+    background: none;
+  }
+
+  .marketing-site-hero::after{
+    content: none;
+  }
+
+  
+  .mailing{
+    height: 50vh;
+  }
+  .links {
+    ul{
+      list-style: none;
+    }
+    li {
+      margin: 1em;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+    }
+    img{
+      margin: auto;
+      margin-bottom: 2em;
+    }
+  }
+  .mailing.marketing-site-hero::before {
+    background: url(../img/ripdark.png) 50% 0 no-repeat;
+  }
+  .mailing.marketing-site-hero::after {
+    content: none;
+  }
+  .mailing{
+    background: none;
+  }
+  .marketing-site-hero .header-sponsors, 
+  .marketing-site-hero .slide-down,
+  .marketing-site-hero .marketing-site-hero-content p,
+  .marketing-site-hero .marketing-site-hero-content h3{
+    color: #2c2c2c;
   }
 }
 

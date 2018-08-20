@@ -1,0 +1,156 @@
+<div class="grid-x grid-padding-x">
+  <div class="large-10 large-offset-1 cell">
+
+    <div class="text-center title-section">
+      <h1>Agenda
+        <span>Check out our schedule of events and agenda.</span>
+      </h1>
+    </div>
+
+    <ul class="tabs grid-x grid-margin-x" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500"
+      data-tabs id="deeplinked-tabs">
+      <li class="tabs-title is-active cell small-4"><a href="#dayone" aria-selected="true" class="button secondary radius"><h6>Day
+            One</h6>Defining the problem</a></li>
+      <li class="tabs-title cell small-4"><a href="#daytwo" class="button secondary radius"><h6>Day Two</h6>Exploring solutions</a></li>
+      <li class="tabs-title cell small-4"><a href="#daythree" class="button secondary radius"><h6>Day Three</h6>Forging a path forward</a></li>
+    </ul>
+
+    <div class="tabs-content" data-tabs-content="deeplinked-tabs">
+      <div class="tabs-panel is-active" id="dayone">
+
+        <div class="grid-x grid-padding-x">
+
+          <div class="medium-12 cell time-wrap">
+
+            <h4 class="text-center">Defining the Problem</h4>
+
+            {{#italy2018_agenda_day1}} {{#morning}}
+
+            <div class="grid-x grid-padding-x timeline">
+
+    
+
+              <div class="details cell small-12">
+                <div class="grid-x grid-padding-y">
+                  <div class="cell small-4">
+                    <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                    <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                    <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                {{description}}
+                              </div> -->
+
+                  </div>
+                  <div class="cell small-8">
+                    {{#if name}}
+                    <h4>{{name}}</h4>
+                    <h6>{{title}}</h6>
+                    {{else}}
+                    <h4>{{title}}</h4>
+                    {{/if}} {{#if url}}
+                    <a href="{{url}}" class="button round secondary tiny" target="_blank"><i class="fa fa-play"></i> View
+                      Presentation</a>
+                    {{/if}}
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end timeline item -->
+
+            {{/morning}} {{/italy2018_agenda_day1}}
+
+          </div><!--  end medium-6 -->
+
+
+        </div>
+      </div>
+      <div class="tabs-panel" id="daytwo">
+        <div class="grid-x grid-padding-x">
+
+          <div class="medium-12 cell time-wrap">
+
+            <h4 class="text-center">Exploring solutions</h4>
+
+            {{#italy2018_agenda_day2}} {{#morning}}
+
+            <div class="grid-x grid-padding-x timeline">
+
+   
+
+              <div class="details cell small-12">
+                <div class="grid-x grid-padding-y">
+                  <div class="cell small-4">
+                    <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                    <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                    <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                  {{description}}
+                                </div> -->
+
+                  </div>
+                  <div class="cell small-8">
+                    {{#if name}}
+                    <h4>{{name}}</h4>
+                    <h6>{{title}}</h6>
+                    {{else}}
+                    <h4>{{title}}</h4>
+                    {{/if}} {{#if url}}
+                    <a href="{{url}}" class="button round secondary tiny" target="_blank"><i class="fa fa-play"></i> View
+                      Presentation</a>
+                    {{/if}}
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end timeline item -->
+
+            {{/morning}} {{/italy2018_agenda_day2}}
+
+          </div><!--  end medium-6 -->
+
+        </div>
+
+      </div>
+      <div class="tabs-panel" id="daythree">
+        <div class="grid-x grid-padding-x">
+
+          <div class="medium-12 cell time-wrap">
+
+            <h4 class="text-center">Forging a path forward</h4>
+
+            {{#italy2018_agenda_day3}} {{#morning}}
+
+            <div class="grid-x grid-padding-x timeline">
+
+     
+              <div class="details cell small-12">
+                <div class="grid-x grid-padding-y">
+                  <div class="cell small-4">
+                    <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}">
+                    <!-- <img src="{{photo}}" alt="{{name}}" data-toggle="time-description-{{@index}}"> -->
+                    <!-- <div class="dropdown-pane" data-position="right" data-alignment="center" id="time-description-{{@index}}" data-dropdown data-hover="true" data-hover-pane="false">
+                                    {{description}}
+                                  </div> -->
+
+                  </div>
+                  <div class="cell small-8">
+                    {{#if name}}
+                    <h4>{{name}}</h4>
+                    <h6>{{title}}</h6>
+                    {{else}}
+                    <h4>{{title}}</h4>
+                    {{/if}} {{#if url}}
+                    <a href="{{url}}" class="button round secondary tiny" target="_blank"><i class="fa fa-play"></i> View
+                      Presentation</a>
+                    {{/if}}
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end timeline item -->
+
+            {{/morning}} {{/italy2018_agenda_day3}}
+
+          </div><!--  end medium-6 -->
+
+        </div>
+
+      </div>
