@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Imaginary_username",
+    "image": "/assets/img/speakers/imaginary_username.jpg",
+    "position": "Volunteer Dev"
+  },
+  {
+    "name": "Tom Harding",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg",
+    "position": "Lead Developer,<br>Bitcoin XT"
+  },
+  {
+    "name": "Amaury Séchet",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
+    "position": "Lead Developer,<br>Bitcoin ABC"
+  },
+  {
+    "name": "Dagur Valberg Johannsson",
+    "image": "/assets/img/speakers/DagurValbergJohannsson.jpg",
+    "position": "Bitcoin XT"
+  },
+  {
+    "name": "Tom Zander",
+    "image": "/assets/img/speakers/tomzander.png",
+    "position": "Flowee The Hub"
+  },
+  {
+    "name": "Awemany",
+    "image": "/assets/img/speakers/awemany.png",
+    "position": "Bitcoin Unlimited"
+  },
+  {
+    "name": "Andrew Clifford",
+    "image": "/assets/img/speakers/Andrew_Clifford.png",
+    "position": "Bitcoin Unlimited"
+  },
+  {
+    "name": "Andrew Stone",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg",
+    "position": "Lead Developer,<br>Bitcoin Unlimited"
+  },
+  {
+    "name": "Andrea Suisani",
+    "image": "/assets/img/speakers/Andrea_Suisani.png",
+    "position": "Bitcoin Unlimited"
+  },
+  {
+    "name": "Chris Pacia",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0007_ChrisPacia.jpg",
+    "position": "Developer,<br>Open Bazaar"
+  },
+  {
+    "name": "Josh Ellithorpe (zquest)",
+    "position": "Senior Engineer,<br>Coinbase",
+    "image": "/assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg"
+  },
+  {
+    "name": "Peter Rizun",
+    "image": "/assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
+    "position": "Chief Scientist,<br>Bitcoin Unlimited"
+  },
+  {
+    "name": "Daniel Lipshitz",
+    "image": "/assets/img/speakers/DanielLipshitz.jpg",
+    "position": "GAP600"
+  },
+  {
+    "name": "Emil Oldenburg",
+    "position": "CTO,<br>Bitcoin.com",
+    "image": "/assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg"
+  },
+  {
+    "name": "Juan Garavaglia",
+    "position": "Bitprim Project",
+    "image": "/assets/img/speakers/JuanGaravaglia.jpg"
+  },
+  {
+    "name": "Steve Shadders",
+    "position": "Author,<br>nChain",
+    "image": "/assets/img/nchain.png"
+  }
+]
