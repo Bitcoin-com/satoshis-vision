@@ -886,7 +886,7 @@ article {
   background: $lakebg;
 
   iframe {
-    border: $lakebg 5px solid !important;
+    border: transparent 5px solid !important;
   }
 
   .marketing-site-hero{
@@ -940,8 +940,9 @@ article {
     background-color: rgb(60, 43, 214)
   }
   .light,
-  .media {
-    background-color: #fff;
+  .media,
+  .marketing-site-hero.location {
+    background: #fff;
   }
 
   .header-sponsors {
@@ -955,19 +956,19 @@ article {
     color: #2c2c2c;
   }
 
-  .marketing-site-hero.italy2018-site-hero::after{
+  .marketing-site-hero.italy2018-site-hero::after,
+  .media::before{
     background: url(../../assets/img/rip_blue.png) 0 0 no-repeat;
   }
-  .mailing.marketing-site-hero::before,
-  .media::before {
+  .mailing.marketing-site-hero::before{
     background: url(../../assets/img/ripdark.png) 50% 0 no-repeat;
   }
   .mailing.marketing-site-hero::after,
   .sponsors::after,
-  .media::after {
+  .media::after{
     background: url(../../assets/img/ripbottom_blue.png) 50% 0 no-repeat;
   }
-  
+
   .details::before, .details::after{
     content: none;
   }
