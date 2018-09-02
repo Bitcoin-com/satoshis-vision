@@ -6,13 +6,13 @@
 
                {
                "time" : "8:00 - 9:00",
-               "photo": "assets/img/speakers/register.jpg",
+               "photo": "/assets/img/speakers/register.jpg",
                "title" : "Registration"
                },
 
                {
                "time" : "9:00 - 9:10",
-               "photo": "assets/img/speakers/bitcoin.jpg",
+               "photo": "/assets/img/speakers/bitcoin.jpg",
                "title" : "Welcome"
                },
                 
@@ -21,7 +21,7 @@
                     "title" : "How to Make Bitcoin Cash the Best Money in the World",
                     "name" : "Jerry Chan",
                     "url" : "https://www.youtube.com/watch?v=0v0IfdKEiYs&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=1&t=176s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0006_Jerry David Chan.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0006_Jerry David Chan.jpg"
                     
                     },
 
@@ -30,13 +30,13 @@
                     "title" : "Entice Me",
                     "name" : "Daniel Krawisz",
                     "url" : "https://www.youtube.com/watch?v=E4DkRl67sto&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=2&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0008_DanielKrawisz.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0008_DanielKrawisz.jpg"
                     
                     },
 
                {
                "time" : "10:10 - 10:30",
-               "photo": "assets/img/speakers/coffee.jpg",
+               "photo": "/assets/img/speakers/coffee.jpg",
                "title" : "Coffee"
                     },
                 
@@ -45,7 +45,7 @@
                     "title" : "Scaling Bitcoin x100000: The Next Few Orders of Magnitude",
                     "name" : "Emin Gün Sirer",
                     "url" : "https://www.youtube.com/watch?v=jn_Z72H0SwY&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=3&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0002_EminGunSirer.jpg"
                     
                     },
 
@@ -54,7 +54,7 @@
                     "title" : "Colored Coins",
                     "name" : "Emil Oldenburg",
                     "url" : "https://www.youtube.com/watch?v=0FdoGJolRYI&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=4&t=531s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg"
                     
                     },
 
@@ -63,13 +63,13 @@
                     "title" : "Terabyte Block for Bitcoin Cash",
                     "name" : "Joannes Vermorel",
                     "url" : "https://www.youtube.com/watch?v=PKFkhWWiLDk&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=5&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0003_Joannes-Vermorel-Lokad-2015.jpg"
                     
                     },
            
                {
                "time" : "12:00 - 13:30",
-               "photo": "assets/img/speakers/lunch.jpg",
+               "photo": "/assets/img/speakers/lunch.jpg",
                "title" : "Lunch"
                }
                     
@@ -82,7 +82,7 @@
                     "title" : "Bringing Bitcoin Cash to a Mainstream Audience",
                     "name" : "Ryan X. Charles",
                     "url" : "https://www.youtube.com/watch?v=iW6_F1oi6mw&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=6&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0005_RyanXCharles.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0005_RyanXCharles.jpg"
                     
                     },
 
@@ -91,7 +91,7 @@
                     "title" : "Fireside Chat with Ryan X Charles. Scaling Cryptocurrencies: Bitcoin & Bitcoin Cash, A Tale of Two Coins",
                     "name" : "Vinny Lingham",
                     "url" : "https://www.youtube.com/watch?v=RDFcD5IhK9I&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=7&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-vinny-lingham.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-vinny-lingham.jpg"
                     
                     },
 
@@ -100,13 +100,13 @@
                     "title" : "Zero-Confirmation Transactions",
                     "name" : "Tom Harding",
                     "url" : "https://www.youtube.com/watch?v=OAt6B7b4GeM&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=8&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg"
                     
                     },
           
           {
           "time" : "15:00 - 15:20",
-          "photo": "assets/img/speakers/coffee.jpg",
+          "photo": "/assets/img/speakers/coffee.jpg",
           "title" : "Coffee"
           },
       
@@ -115,7 +115,7 @@
                     "title" : "An Efficient Stateless Storage for Blockchain Data",
                     "name" : "Tomas van der Wansem",
                     "url" : "https://www.youtube.com/watch?v=69SH5WqMszI&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=9&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0000_Tomas_van_der-Wansem2.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0000_Tomas_van_der-Wansem2.jpg"
                     
                     },
                          
@@ -123,7 +123,7 @@
                     "title" : "Transaction Order in Blocks",
                     "name" : "Antony Zegers",
                     "url" : "https://www.youtube.com/watch?v=j9vlTmhyeUo&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=10&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0015_AntonyZegers.jpg"
                     
                     },
 
@@ -132,14 +132,14 @@
                     "title" : "Tokens and Colored Coins: Where should they fit within the protocol?",
                     "name" : "Panel Discussion",
                     "url" : "https://www.youtube.com/watch?v=6IA7AuXVSxQ&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=11&t=0s",
-                    "photo" : "assets/img/speakers/panel.jpg"
+                    "photo" : "/assets/img/speakers/panel.jpg"
                     },
 
                     {
                          "time": "19:00 - 21:30",
                          "title": "Sponsored by Bitcoin Cash Fund",
                          "name": "Networking Event",
-                         "photo": "assets/img/speakers/bcf.jpg"
+                         "photo": "/assets/img/speakers/bcf.jpg"
                     }
                     
     ]

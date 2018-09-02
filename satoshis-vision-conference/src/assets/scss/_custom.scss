@@ -1,7 +1,9 @@
 
 //globals
 
-$paperbg: #EDDFCD;
+$paperbg: #EDDFCC;
+$lakebg: #C2D1D4;
+$darkblue: #3a94d9;
 
 .marketing-site-hero.inner-page {
   height:75vh;
@@ -43,6 +45,8 @@ $paperbg: #EDDFCD;
     }
   }
 }
+
+
 .marketing-site-hero {
   background: url('../../assets/img/satoshis-vision-conference.jpg') 50% 50% no-repeat;
   height: 100vh;
@@ -102,6 +106,31 @@ $paperbg: #EDDFCD;
   padding-top:12em;
 
   }
+}
+.italy2018-site-hero{
+  background: url('../../assets/img/italy-banner-satoshis-vision.jpeg') 50% 50% no-repeat;
+
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+
+h2 {font-size: 1.728em;}
+
+h3 {font-size: 1.44em;}
+
+h4 {font-size: 1.2em;}
+
+small, .font_small {font-size: 0.833em;}
 }
 
 .mailing.marketing-site-hero {
@@ -171,6 +200,10 @@ $paperbg: #EDDFCD;
     .button { width: 100%; margin: .5em 0 0 0; }
       
     }
+}
+
+.mailing.marketing-site-hero.italy2018{
+  background: url('../../assets/img/italy-satoshis-vision-banner2.jpeg') 50% 70% no-repeat;
 }
 
 .button {
@@ -778,7 +811,7 @@ article {
     position:relative;
     padding-top:0 !important;
     padding-bottom:0.5rem !important;
-    padding-left:2rem !important;
+    //padding-left:2rem !important;
     h4 {
       padding-top:0.25rem;
       font-size:1.2rem;
@@ -837,7 +870,6 @@ article {
   }
 }
 
-
 .tabs {
   .tabs-title {
     a {
@@ -845,6 +877,258 @@ article {
         background:$primary-color;
       }
     }
+  }
+}
+
+.italy {
+  background: $lakebg;
+
+  iframe {
+    border: transparent 5px solid !important;
+  }
+
+  .marketing-site-hero{
+    background: url('../../assets/img/italy-banner-satoshis-vision.jpeg') 50% 50% no-repeat;
+
+    box-sizing: border-box;
+    .marketing-site-hero-content{
+      padding: 1em;
+      padding-top: 0.5em;
+      box-sizing:border-box;
+    }
+
+    p {margin-bottom: 1.3em;}
+    
+    h1, h2, h3, h4 {
+      margin: 1.414em 0 0.5em;
+      font-weight: inherit;
+      line-height: 1.2;
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 2.074em;
+    }
+    
+    h2 {
+      font-size: 1.728em;
+    }
+    
+    h3 {
+      font-size: 1.44em;
+      margin-top: 1em;
+    }
+    
+    h4 {
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+    
+    h5 {
+      margin-top: 1em;
+    }
+
+    small, .font_small {
+      font-size: 0.833em;    
+    }
+  }
+
+  a{
+    color: $darkblue;
+  }
+
+  .intro-content h1 span {
+    display: block;
+    color: $darkblue;
+    font-size: 0.4em;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .timeline .details img {
+    border: 3px solid $lakebg;
+  }
+  .top-bar li a, .top-bar ul li a {
+    color: $darkblue;
+  }
+  .title-section h1 span, .title-section h3 span, .title-section h4 span, .speakers-list h6.name {
+    color: $darkblue;
+  }
+  .tabs-title > a[aria-selected='true'] {
+    background: $darkblue;
+  }
+  .tabs .tabs-title a:hover, .tabs .tabs-title a:focus, .tabs .tabs-title a:active {
+    background: $darkblue;
+  }
+
+  .button {
+    background-color: $darkblue;
+    color: white;
+  }
+  
+  .button:focus, 
+  .button:hover{
+    background-color: $darkblue;
+  }
+  .light,
+  .media,
+  .marketing-site-hero.location {
+    background: #fff;
+  }
+
+  .light:hover{
+    background: #eee;
+  }
+
+  .header-sponsors {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  
+  .marketing-site-hero .header-sponsors, 
+  .marketing-site-hero .slide-down,
+  .marketing-site-hero .marketing-site-hero-content p,
+  .marketing-site-hero .marketing-site-hero-content h3{
+    color: #2c2c2c;
+  }
+
+  
+  .marketing-site-hero::after,
+  .media::before,
+  .sponsors::before,
+  .proposals::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 125px;
+    background: url(../../assets/img/rip_blue.png) 0 0 no-repeat;
+  }
+
+  .mailing.marketing-site-hero::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+    background: url(../../assets/img/ripdark.png) 50% 0 no-repeat;
+  }
+
+  .sponsors::after,
+  .proposals::after,
+  .feature-list::after,
+  .mailing::after
+  {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 125px;
+    background: url(../../assets/img/ripbottom_blue.png) 50% 0 no-repeat;
+  }
+
+  .media::after,
+  .media::before{
+    content: none;
+  }
+
+  .speakers, .home-speakers{
+    background: transparent;
+  }
+  
+  .feature-list{
+    background: linear-gradient(to bottom, white, $lakebg);
+  }
+
+
+
+  .proposals{
+    background: white;
+    position: relative;
+    padding: 4em;
+  }
+
+  .proposals::before, 
+  .proposals::after{
+    content: '';
+  }
+
+  .details::before, .details::after{
+    content: none;
+  }
+
+  .feature-list{
+    padding: 4em;
+  }
+
+  .speakers-list img{
+    filter: grayscale(100%)
+    
+  }
+
+  .speakers-list img:hover{
+    filter: none;
+  }
+  .speakers-list .headshot::before{
+    content: none;
+  }
+
+  .media{
+    background: $lakebg ;
+  }
+  .callout{
+    border: none;
+    padding: 0;
+    background: $lakebg;
+  }
+}
+
+.previous{
+  background: #eee;
+  .marketing-site-hero{
+    background: none;
+  }
+
+  .marketing-site-hero::after{
+    content: none;
+  }
+
+  
+  .mailing{
+    height: 50vh;
+  }
+  .links {
+    ul{
+      list-style: none;
+    }
+    li {
+      margin: 1em;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+    }
+    img{
+      margin: auto;
+      margin-bottom: 2em;
+    }
+  }
+  .mailing.marketing-site-hero::before {
+    background: url(../img/ripdark.png) 50% 0 no-repeat;
+  }
+  .mailing.marketing-site-hero::after {
+    content: none;
+  }
+  .mailing{
+    background: none;
+  }
+  .marketing-site-hero .header-sponsors, 
+  .marketing-site-hero .slide-down,
+  .marketing-site-hero .marketing-site-hero-content p,
+  .marketing-site-hero .marketing-site-hero-content h3{
+    color: #2c2c2c;
   }
 }
 

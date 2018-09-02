@@ -1,0 +1,39 @@
+<div class="speakers italy">
+        {{#ifpage 'speakers'}}
+          <div class="grid-container">
+          {{else}}
+          <div>
+        
+        {{/ifpage}}
+        
+            <div class="grid-x grid-padding-x">
+            
+            <div class="large-10 large-offset-1 cell">
+        
+              <div class="text-center title-section">
+              <h3>Workshop Participants 
+                <span>We're pleased to announce this initial group of participants for the workshop</span>
+              </h3>
+              </div>
+        
+              <div class="grid-x grid-padding-x speakers-list">
+                
+                {{#each italy2018_participants}}   
+              <div class="medium-4 cell text-center">
+                <div class="speaker">
+                  <div class="headshot">
+                  <img src="{{this.image}}" alt="{{this.name}}">
+                  </div>
+                </div>
+                <h6 class="name">{{this.name}}</h6>
+                <h6>{{{this.position}}}</h6>
+        
+              </div>
+              {{/each}}
+        
+              </div>
+    
+            </div>
+        
+          </div>
+        </div>

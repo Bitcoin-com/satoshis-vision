@@ -1,0 +1,229 @@
+<div class="speakers">
+{{#ifpage 'speakers'}}
+  <div class="grid-container">
+  {{else}}
+  <div>
+
+{{/ifpage}}
+
+    <div class="grid-x grid-padding-x">
+    
+    <div class="large-10 large-offset-1 cell">
+
+      <div class="text-center title-section">
+      <h3>Master of Ceremonies 
+        <span>We are pleased to announce that Taariq Lewis will be Master of Ceremonies for Satoshi's Vision Conference.</span>
+      </h3>
+      </div>
+
+       <div class="grid-x grid-padding-x speakers-list">
+
+        <div class="large-5 large-push-7 medium-push-8 medium-4 cell text-center">
+         <div class="speaker">
+            <div class="headshot">
+            <img src="/assets/img/speakers/additional/satoshis-vision-conference-TaariqLewis.jpg" alt="Taariq Lewis">
+            </div>
+          </div>
+          <h6 class="name">Taariq Lewis</h6>
+        <h6>CEO and founder,<br> Aquila</h6>
+        </div>
+
+        <div class="large-7 large-pull-5 medium-8 medium-pull-4 cell">
+         <div class="speaker keynote-speaker emcee-speaker">
+         <div class="headshot">
+            <blockquote>Taariq Lewis is the CEO and founder of Aquila. Since 2013, he has launched a number of successful Fintech and blockchain businesses and has helped bring Bitcoin and blockchain engineering to a global audience. He is a critical fixture of the Silicon Valley bitcoin and blockchain engineering community. Taariq has hosted the largest cryptocurrency and blockchain events including, Consensys 2017 (New York) and Scaling Bitcoin 2016 (Montreal).
+           
+            </blockquote>
+          </div>
+          
+          </div>
+          
+        </div>
+        
+        
+
+        
+
+      </div>
+      
+
+      <div class="text-center title-section">
+      <h3>Speakers 
+        <span>We're pleased to announce this initial group of speakers for the conference</span>
+      </h3>
+      </div>
+
+
+
+      <div class="grid-x grid-padding-x speakers-list">
+        
+        <div class="large-5 medium-4 cell text-center">
+         <div class="speaker">
+            <div class="headshot">
+            <img src="/assets/img/speakers/satoshis-vision-RogerVer.jpg" alt="Roger Ver Bitcoin">
+            </div>
+          </div>
+          <h6 class="name">Roger Ver</h6>
+        <h6>CEO of Bitcoin.com</h6>
+        </div>
+
+        <div class="large-7 medium-8 cell">
+         <div class="speaker keynote-speaker">
+         <div class="headshot">
+          <h4>Keynote Speaker</h4>
+            <blockquote>Bitcoin’s usefulness as a store of value comes as a secondary effect from its usefulness as a medium of exchange. If you destroy the medium of exchange, you destroy the store of value."
+            <cite>Roger Ver
+          <br>CEO of <a href="https://bitcoin.com" target="_blank">Bitcoin.com</a>
+          , Bitcoin Investor
+          </cite>
+            </blockquote>
+          </div>
+          
+          </div>
+          
+        </div>
+
+      </div>
+
+      <div class="text-center title-section">
+        <h3>Developing the Protocol 
+
+        </h3>
+      </div>
+
+      <div class="grid-x grid-padding-x speakers-list">
+        
+        {{#each featured}}   
+      <div class="medium-4 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+
+      </div>
+      {{/each}}
+
+      </div>
+
+      <div class="text-center title-section">
+        <h3>Building the permissionsless economy
+          
+        </h3>
+      </div>
+      
+      <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
+
+     {{#each builders}}   
+      <div class="large-4 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+      </div>
+      {{/each}}
+
+      </div>
+
+      <div class="text-center title-section">
+        <h3>Researching for the Future
+          
+        </h3>
+      </div>
+      
+      <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
+
+     {{#each developers}}   
+      <div class="large-4 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+      </div>
+      {{/each}}
+
+
+
+      <div class="text-center title-section">
+        <h3>We are pleased to announce more speakers!
+        <span>Speakers at the conference represent a wide variety of backgrounds and expertise including:
+
+        <ul class="inline-list">
+        <li>&bull; Academic Research</li>
+        <li>&bull; Business</li>
+        <li>&bull; Bitcoin Cash Community and Adoption</li>
+        <li>&bull; Investment and Economic Theory</li>
+        <li>&bull; Technical Development.</li>
+        </ul></span>
+        </h3>
+      </div>
+      
+      <div class="grid-x grid-padding-x speakers-list stain speakers-secondary">
+
+      {{#each vinny}}   
+
+      <div class="large-5 medium-4 cell text-center">
+       <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+      <h6>{{{this.position}}}</h6>
+      </div>
+
+      <div class="large-7 medium-8 cell">
+       <div class="speaker keynote-speaker vinny-speaker">
+       <div class="headshot">
+        <h4>Featured Speaker</h4>
+          <blockquote>{{{this.quote}}}"
+          <cite>{{this.name}}
+        </cite>
+          </blockquote>
+        </div>
+        
+        </div>
+        
+      </div>
+
+      {{/each}}
+
+     {{#each additional}}   
+      <div class="large-4 cell text-center">
+        <div class="speaker">
+          <div class="headshot">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          </div>
+        </div>
+        <h6 class="name">{{this.name}}</h6>
+        <h6>{{{this.position}}}</h6>
+      </div>
+      {{/each}}
+
+      <div class="large-12 cell keynote-speaker speaker conf-chair">
+        
+        <div class="headshot">
+          <h4>A Message from the Conference Chair<br>
+          </h4>
+            <blockquote>On behalf of Bitcoin Unlimited, I would like to welcome you to Tokyo for Satoshi's Vision Conference. The speakers and attendees at this conference are thinkers and doers. Not only is their work groundbreaking and innovative, it is also directed towards an important goal: building the future of money. By working to create sound money the whole world can use, we will bring Satoshi's Vision to reality."
+            <cite>Antony Zegers
+          </cite>
+            </blockquote>
+          </div>
+
+      </div>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div>

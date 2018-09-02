@@ -1,0 +1,60 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
+    <title>{{#if title}}
+        {{title}}
+      {{else}}
+        Satoshi's Vision | Previous Events
+      {{/if}}
+    </title>
+    <meta name="description" content="{{description}}"/>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111897321-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111897321-1');
+  </script>
+
+
+  </head>
+  <body class="previous">
+<div class="title-bar hide-for-medium" data-responsive-toggle="primary-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="primary-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="primary-menu">
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal">
+        <li><a href="/">Home</a></li>
+        <li><a href="/previous/">Previous Events</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+
+ 
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+    
+    {{> footer}}
+
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

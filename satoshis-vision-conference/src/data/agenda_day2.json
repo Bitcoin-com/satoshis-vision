@@ -7,7 +7,7 @@
           {
       "time" : "9:00 - 9:10",
           "title" : "Welcome",
-          "photo" : "assets/img/speakers/bitcoin.jpg"
+          "photo" : "/assets/img/speakers/bitcoin.jpg"
           },
       
       {
@@ -15,7 +15,7 @@
           "title" : "Bitcoin Cash Community in Japan",
           "name" : "Ken Shishido",
           "url" : "https://www.youtube.com/watch?v=FY3ziabsJ7g&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=12&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0003_KenShishido.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0003_KenShishido.jpg"
           },
 
           {
@@ -23,13 +23,13 @@
           "title" : "Vertical Paid Market",
           "name" : "Fang Yu",
           "url" : "https://www.youtube.com/watch?v=91E58rTYqG8&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=13&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-yu-fang.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-yu-fang.jpg"
           },
 
           {
       "time" : "10:10 - 10:30",
           "title" : "Coffee",
-          "photo" : "assets/img/speakers/coffee.jpg"
+          "photo" : "/assets/img/speakers/coffee.jpg"
           },
       
           {
@@ -37,7 +37,7 @@
           "title" : "Towards a light wallet on every phone",
           "name" : "Andrew Stone",
           "url" : "https://www.youtube.com/watch?v=JAjsJdoeSv0&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=14&t=0s",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg"
+          "photo" : "/assets/img/speakers/satoshis-vision-conference-_0001_AndrewStone.jpg"
           },
 
           {
@@ -45,7 +45,7 @@
           "title" : "Converging on Consensus",
           "name" : "Peter Rizun",
           "url" : "https://www.youtube.com/watch?v=yXFuNkaYcPQ&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=15&t=0s",
-          "photo" : "assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg"
+          "photo" : "/assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg"
           },
 
           {
@@ -53,13 +53,13 @@
           "title" : "Porting the Counterparty Protocol to Bitcoin Cash",
           "name" : "Julian Smith",
           "url" : "https://www.youtube.com/watch?v=OcIvk4StLLs&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=16&t=0s",
-          "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0004_Julian-Smith-150x150.jpg"
+          "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0004_Julian-Smith-150x150.jpg"
           },
  
  {
       "time" : "12:00 - 13:30",
           "title" : "Lunch",
-          "photo" : "assets/img/speakers/lunch.jpg"
+          "photo" : "/assets/img/speakers/lunch.jpg"
           }
       
                    
@@ -72,7 +72,7 @@
                     "title" : "Keynote Speech",
                     "name" : "Roger Ver",
                     "url" : "https://www.youtube.com/watch?v=kMTsY3C3Fd0&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=17&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-RogerVer.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-RogerVer.jpg"
                     },
 
                     {
@@ -80,7 +80,7 @@
                     "title" : "A Future Vision for Bitcoin Cash",
                     "name" : "Amaury Sechet",
                     "url" : "https://www.youtube.com/watch?v=B-Xw3L2M5qU&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=18&t=0s",
-                    "photo" : "assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg"
+                    "photo" : "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg"
                     },
 
                     {
@@ -88,19 +88,19 @@
                     "title" : "Statistical data on Bitcoin vs. Bitcoin Cash",
                     "name" : "Nikita Zhavoronkov",
                     "url" : "https://www.youtube.com/watch?v=UsG_qwMUlew&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=19&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0001_Nikita_Zhavoronkov.jpg"
                     },          
           {
           "time" : "15:00 - 15:30",
           "title" : "Coffee",
-          "photo" : "assets/img/speakers/coffee.jpg"
+          "photo" : "/assets/img/speakers/coffee.jpg"
           },
                     {
                     "time" : "15:30 - 16:00",
                     "title" : "Bobtail",
                     "name" : "Brian Levine",
                     "url" : "https://www.youtube.com/watch?v=u8Gqm9NLY6Q&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=20&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-_0012_BrianLevine.jpg"
                     },
       
                     {
@@ -108,14 +108,14 @@
                     "title" : "Scaling Libbitcoin",
                     "name" : "Eric Voskuil",
                     "url" : "https://www.youtube.com/watch?v=AoswVrSrgr8&list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s&index=21&t=0s",
-                    "photo" : "assets/img/speakers/additional/satoshis-vision-conference-EricVoskuil.jpg"
+                    "photo" : "/assets/img/speakers/additional/satoshis-vision-conference-EricVoskuil.jpg"
                     },
 
                     {
                     "time" : "18:00 - 22:00",
                     "title" : "Location: TBA",
                     "name" : "CoinGeek Banquet Dinner",
-                    "photo" : "assets/img/speakers/other.jpg"
+                    "photo" : "/assets/img/speakers/other.jpg"
                     }
                     
     ]

@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png" />
+    <title>{{#if title}}
+        {{title}}
+      {{else}}
+        Satoshi's Vision | Bitcoin Cash Conference | March 23-25 Tokyo Japan
+      {{/if}}
+    </title>
+    <meta name="description" content="{{description}}"/>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111897321-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111897321-1');
+  </script>
+
+
+  </head>
+  <body>
+<div class="title-bar hide-for-medium" data-responsive-toggle="primary-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="primary-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="primary-menu">
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal">
+        <li><a href="/">Home</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+
+        <li><a href="/previous/">Previous Events</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLpd9yRMC7Ebl40OAmLUI8Zev9Ixekxv6s"  target="_blank" class="button secondary round"><i class="fa fa-play"></i> View Presentations</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+   <section class="sponsors">
+    <div class="grid-container">
+
+          <div class="grid-x grid-padding-x">
+            <div class="large-6 large-offset-3 cell text-center">
+
+             <h3>Platinum Sponsors</h3>
+
+               <div class="grid-x grid-padding-x">
+
+                <div class="large-6 cell text-center">
+                  <a href="https://www.bitcoin.com/" target="_blank"><img src="/assets/img/bitcoin-com.png" alt="Bitcoin.com"/></a>
+                </div>
+                 
+                 <div class="large-6 cell text-center">
+                   <a href="https://www.bitmain.com/" target="_blank"><img src="/assets/img/bitmain-dark.png" alt="Bitmain"/></a>
+                 </div>
+
+               </div>
+
+            </div>
+          </div>
+              
+           <div class="grid-x grid-padding-x grid-container small-up-2">
+             
+               <div class="large-6 cell text-center">
+
+                <h3>Gold Sponsors</h3>
+
+                  <div class="grid-x grid-padding-x">
+                    
+                    <div class="large-6 large-offset-3 cell text-center">
+                      <a href="https://www.coingeek.com/" target="_blank"><img src="/assets/img/media/coingeek.jpg" alt="Coingeek" /></a>
+                    </div>
+
+                  </div>
+
+               </div>
+
+               <div class="large-6 cell text-center">
+
+                <h3>Silver Sponsors</h3>
+
+                <div class="grid-x grid-padding-x silver">
+
+                  <div class="large-4 large-offset-2 cell text-center">
+
+                  <a href="https://thebitcoincash.fund" target="_blank"><img src="/assets/img/bcf.png" alt="Bitcoin Cash Fund" /></a>
+
+                  </div>
+
+                  <div class="large-4 cell text-center">
+
+                   <a href="https://nchain.com/" target="_blank"><img src="/assets/img/nchain.png" alt="nChain" /></a>
+                               
+                  </div>
+
+                </div>
+
+               </div>
+
+             </div>
+
+             <div class="grid-x grid-padding-x grid-container small-up-2">
+
+               <div class="large-4 cell text-center">
+
+                <h3>Bronze Sponsors</h3>
+
+                <div class="grid-x bronze">
+
+                  <div class="large-4 large-offset-2 cell text-center">
+
+                   <a href="https://cyber.capital/" target="_blank"><img src="/assets/img/cyber-capital.png" alt="Cyber Capital" /></a>
+
+                  </div>
+
+                  <div class="large-4 cell text-center">
+
+                   <a href="http://gap600.com/" target="_blank"><img src="/assets/img/gap600.png" alt="gap600" /></a>
+
+                  </div>
+
+                </div>
+
+               </div>
+
+               <div class="large-4 cell text-center">
+
+                <h3>Supporters</h3>
+
+                <div class="grid-x grid-padding-x">
+                      <div class="large-6 cell text-center">
+                      <a href="https://rocketr.net/" target="_blank"><img src="/assets/img/rocketr.png" alt="Rocketr" /></a>
+                      </div>
+                      <div class="large-6 cell text-center">  
+                      <a href="https://bitkan.com/" target="_blank"><img src="/assets/img/bitkan.png" alt="Bitkan" /></a>
+                      </div>
+                </div>
+
+               </div>
+
+           </div>
+
+           <div class="grid-x small-up-1">
+            <div class="large-12 cell text-center">
+
+             {{> media}}
+
+            </div>
+           </div>
+      </div>
+   </section>
+
+    {{> footer}}
+    
+    <script src="{{root}}assets/js/app.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Satoshi's Vision",
+  "description": "RE-UNITING BITCOIN DEVELOPMENT\
+JOIN BITCOIN UNLIMITED IN TOKYO FOR A PREMIER CONFERENCE AND EVENT.\
+Following Satoshi’s Vision conference held in San Francisco in 2016, and the Bitcoin Unlimited sponsored “The Future of Bitcoin” Conference held in Arnhem 2017, Bitcoin Unlimited brings you another premier event. Satoshi’s Vision Conference Tokyo will bring together developers, researchers, businesses, and Bitcoin Cash and other cryptocurrency enthusiasts from around the world.",
+  "startDate": "2018-03-23T09:00",
+  "endDate": "2018-03-25T22:00",
+  "performer": {
+    "@type": "PerformingGroup",
+    "name": "Satosho's Vision Conference"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "TKP GARDENCITY TAKEBASHI",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 CHOME-2-2 HITOTSUBASHI",
+      "addressLocality": "HIYODA-KU, TOKYO",
+      "postalCode": "100-0003",
+      "addressCountry": "JP"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Conference Ticket",
+    "price": "400",
+    "priceCurrency": "USD",
+    "url": "http://satoshisvisionconference.com",
+    "availability": "http://schema.org/InStock"
+  }
+}
+</script>
+  </body>
+</html>
