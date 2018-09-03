@@ -4,12 +4,12 @@
       {
         "time": "",
         "photo": "/assets/img/speakers/register.jpg",
-        "title": "How can double-spends of instant transactions be carried out today?"
+        "title": "Coordinating between node implementation (ABC, BU, XT, Flowee the Hub), SPV wallets, businesses, and miners"
       },
       {
         "time": "",
         "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Statistics on 0-conf double-spends"
+        "title": "Best practices when accepting instant transactions and understanding risk level"
       }
     ]
   }

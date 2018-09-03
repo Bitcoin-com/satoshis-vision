@@ -4,12 +4,17 @@
       {
         "time": "",
         "photo": "/assets/img/speakers/register.jpg",
-        "title": "How can double-spends of instant transactions be carried out today?"
+        "title": "Double-spend relay vs. double-spend proofs"
       },
       {
         "time": "",
         "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Statistics on 0-conf double-spends"
+        "title": "Super-stand transactions"
+      },
+      {
+        "time": "",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Pre-consensus"
       }
     ]
   }

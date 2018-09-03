@@ -996,6 +996,7 @@ article {
   .marketing-site-hero::after,
   .media::before,
   .sponsors::before,
+  .agenda::before,
   .proposals::before{
     content: "";
     position: absolute;
@@ -1016,10 +1017,12 @@ article {
     background: url(../../assets/img/ripdark.png) 50% 0 no-repeat;
   }
 
+
   .sponsors::after,
   .proposals::after,
   .feature-list::after,
-  .mailing::after
+  .mailing::after,
+  .agenda::after,
   {
     content: "";
     position: absolute;
@@ -1045,10 +1048,11 @@ article {
 
 
 
-  .proposals{
+  .proposals, .agenda{
     background: white;
     position: relative;
     padding: 4em;
+    padding-top: 12em;
   }
 
   .proposals::before, 
