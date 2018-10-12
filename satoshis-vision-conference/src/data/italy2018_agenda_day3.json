@@ -20,7 +20,7 @@
       },
       {
         "time": "10:00 - 10:30",
-        "photo": "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
         "name": " Bitcoin.com mining team",
         "title": "What can miners do to improve instant transactions?"
       },
@@ -31,7 +31,7 @@
       },
       {
         "time": "11:00 - 12:30",
-        "photo": "/assets/img/speakers/coffee.jpg",
+        "photo": "/assets/img/speakers/panel.jpg",
         "name":"Panel Discussion",
         "title": "Best Practices When Accepting Instant Transactions"
       },
