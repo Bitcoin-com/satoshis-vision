@@ -2,19 +2,51 @@
   {
     "morning": [
       {
-        "time": "",
-        "photo": "/assets/img/speakers/register.jpg",
-        "title": "Double-spend relay vs. double-spend proofs"
+        "time": "8:00 - 9:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Breakfast"
       },
       {
-        "time": "",
-        "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Super-stand transactions"
+        "time": "9:00 - 9:30",
+        "photo": "/assets/img/speakers/imaginary_username.jpg",
+        "name": "Imaginary Username",
+        "title": "Minimally Invasive: A Proposal for Relaying Double Spend Proofs and Prioritizing Transactions"
       },
       {
-        "time": "",
-        "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Pre-consensus"
+        "time": "9:30 - 10:00",
+        "photo": "/assets/img/speakers/tomzander.png",
+        "name": "Tom Zander",
+        "title": "Instant Transactions, How They Failed and How DS-proofs Fixes That"
+      },
+      {
+        "time": "10:00 - 10:30",
+        "photo": "/assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg",
+        "name": "Tom Harding",
+        "title": "The Relay Race"
+      },
+      {
+        "time": "10:30 - 11:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Coffee break"
+      },
+      {
+        "time": "11:00 - 12:30",
+        "photo": "/assets/img/speakers/panel.jpg",
+        "name": "Panel Discussion",
+        "title": "Double-spend Proofs Versus Double-spend Relay"
+      },
+      {
+        "time": "12:30 - 14:00",
+        "photo": "/assets/img/lunch-italy.png",
+        "title": "Lunch"
+      }
+    ],
+    "afternoon": [
+      {
+        "time": "15:30 - 21:00",
+        "photo": "/assets/img/lunch-italy.png",
+        "name": "Team building event",
+        "title": "Boat Ride + Dinner"
       }
     ]
   }

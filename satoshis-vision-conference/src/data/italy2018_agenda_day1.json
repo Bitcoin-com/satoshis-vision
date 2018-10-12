@@ -2,14 +2,85 @@
   {
     "morning": [
       {
-        "time": "",
-        "photo": "/assets/img/speakers/register.jpg",
-        "title": "How can double-spends of instant transactions be carried out today?"
+        "time": "8:00 - 9:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Breakfast"
       },
       {
-        "time": "",
+        "time": "9:00 - 9:20",
         "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Statistics on 0-conf double-spends"
+        "title": "Welcome message"
+      },
+      {
+        "time": "9:20 - 9:50",
+        "photo": "/assets/img/speakers/Andrea_Suisani.png",
+        "name": "Andrea Suisani",
+        "title": "Instant Transactions: The Status Quo"
+      },
+      {
+        "time": "9:50 - 10:20",
+        "photo": "/assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
+        "name": "Peter Rizun",
+        "title": "Empirical Double-spend Probabilities for Unconfirmed Transactions"
+      },
+      {
+        "time": "10:20 - 11:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Coffee break"
+      },
+      {
+        "time": "11:00 - 11:30",
+        "photo": "/assets/img/speakers/additional/satoshis-vision-conference-_0007_EmilOldenburg.jpg",
+        "name": "Emil Oldenburg",
+        "title": "On-chain Dice Games, What We Learned From Building Lowrider"
+      },
+      {
+        "time": "11:30 - 12:00",
+        "photo": "/assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg",
+        "name": "Joshua Ellithorpe",
+        "title": "Mitigating Risk - How Exchanges Can Accept Zero Conf Transactions"
+      },
+      {
+        "time": "12:00 - 13:30",
+        "photo": "/assets/img/lunch-italy.png",
+        "title": "Lunch"
+      }
+    ],
+    "afternoon": [
+      {
+        "time": "13:30 - 15:00",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Break-out session: What are your goals for this workshop?"
+      },
+      {
+        "time": "13:30 - 13:45",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Explaination of break-out session, define groups"
+      },
+      {
+        "time": "13:45 - 14:30",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Independent group discussion, elect spokespeople"
+      },
+      {
+        "time": "13:30 - 13:45",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Spokespeople present findings to entire group"
+      },
+      {
+        "time": "14:30 - 15:00",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Spokespeople present findings to entire group"
+      },
+      {
+        "time": "15:00 - 15:30",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Coffee break"
+      },
+      {
+        "time": "15:30 - 17:00",
+        "photo": "/assets/img/speakers/bitcoin.jpg",
+        "title": "Mini hackathon: Double-spend Your Way to $1000 Free-for-all!"
       }
     ]
   }

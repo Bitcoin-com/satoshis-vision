@@ -2,15 +2,63 @@
   {
     "morning": [
       {
-        "time": "",
-        "photo": "/assets/img/speakers/register.jpg",
-        "title": "Coordinating between node implementation (ABC, BU, XT, Flowee the Hub), SPV wallets, businesses, and miners"
+        "time": "8:00 - 9:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Breakfast"
       },
       {
-        "time": "",
-        "photo": "/assets/img/speakers/bitcoin.jpg",
-        "title": "Best practices when accepting instant transactions and understanding risk level"
+        "time": "9:00 - 9:30",
+        "photo": "/assets/img/speakers/awemany.png",
+        "name": "Awemany",
+        "title": "Zero Conf Forfeits"
+      },
+      {
+        "time": "9:30 - 10:00",
+        "photo": "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
+        "name": "Amaury Sechet",
+        "title": "Embrace the DAG"
+      },
+      {
+        "time": "10:00 - 10:30",
+        "photo": "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
+        "name": " Bitcoin.com mining team",
+        "title": "What can miners do to improve instant transactions?"
+      },
+      {
+        "time": "10:30 - 11:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Coffe break"
+      },
+      {
+        "time": "11:00 - 12:30",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "name":"Panel Discussion",
+        "title": "Best Practices When Accepting Instant Transactions"
+      },
+      {
+        "time": "12:30 - 14:00",
+        "photo": "/assets/img/lunch-italy.png",
+        "title": "Lunch"
       }
+    ],
+    "afternoon": [
+      {
+        "time": "14:00 - 15:30",
+        "photo": "/assets/img/speakers/panel.jpg",
+        "name": "Break out sessions",
+        "title": "What will you do to make instant transactions more usable?"
+      },
+      {
+        "time": "15:30 - 16:00",
+        "photo": "/assets/img/speakers/coffee.jpg",
+        "title": "Coffee break"
+      },
+      {
+        "time": "16:00 - 17:00",
+        "photo": "/assets/img/speakers/panel.jpg",
+        "title": "Wrap up"
+      }
+      
     ]
   }
 ]

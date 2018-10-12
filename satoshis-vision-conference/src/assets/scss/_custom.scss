@@ -1060,25 +1060,23 @@ article {
     content: '';
   }
 
-  .details::before, .details::after{
-    content: none;
+  .details::after{
+    background-image: url(../../assets/img/icons/favicon-32x32.png);
   }
 
+  .timeline .time {
+    color: $darkblue;
+  }
+
+  .timeline .details h6 {
+    color: $darkblue;
+  }
   .feature-list{
     padding: 4em;
   }
 
-  .speakers-list img{
-    filter: grayscale(100%)
-    
-  }
 
-  .speakers-list img:hover{
-    filter: none;
-  }
-  .speakers-list .headshot::before{
-    content: none;
-  }
+
 
   .media{
     background: $lakebg ;
