@@ -15,13 +15,15 @@
         "time": "9:20 - 9:50",
         "photo": "/assets/img/speakers/Andrea_Suisani.png",
         "name": "Andrea Suisani",
-        "title": "Instant Transactions: The Status Quo"
+        "title": "Instant Transactions: The Status Quo",
+        "url": "https://www.youtube.com/watch?v=_K0Dt5hh3Lg&index=2&t=185s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "9:50 - 10:20",
         "photo": "/assets/img/speakers/satoshis-vision-conference-_0004_PeterR.jpg",
         "name": "Peter Rizun",
-        "title": "Empirical Double-spend Probabilities for Unconfirmed Transactions"
+        "title": "Empirical Double-spend Probabilities for Unconfirmed Transactions",
+        "url": "https://www.youtube.com/watch?v=TIt96gFh4vw&index=3&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "10:20 - 11:00",
@@ -38,7 +40,8 @@
         "time": "11:30 - 12:00",
         "photo": "/assets/img/speakers/additional/satoshis-vision-conference-_0005_JoshEllithorpe.jpg",
         "name": "Joshua Ellithorpe",
-        "title": "Mitigating Risk - How Exchanges Can Accept Zero Conf Transactions"
+        "title": "Mitigating Risk - How Exchanges Can Accept Zero Conf Transactions",
+        "url":"https://www.youtube.com/watch?v=YC5GaAlRo2E&index=4&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "12:00 - 13:30",

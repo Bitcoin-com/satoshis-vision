@@ -10,19 +10,22 @@
         "time": "9:00 - 9:30",
         "photo": "/assets/img/speakers/awemany.png",
         "name": "Awemany",
-        "title": "Zero Conf Forfeits"
+        "title": "Zero Conf Forfeits",
+        "url": "https://www.youtube.com/watch?v=EsddVkR-MSs&index=9&t=22s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "9:30 - 10:00",
         "photo": "/assets/img/speakers/satoshis-vision-conference-_0000_AmaurySechet.jpg",
         "name": "Amaury Sechet",
-        "title": "Embrace the DAG"
+        "title": "Embrace the DAG",
+        "url": "https://www.youtube.com/watch?v=9PygO-B1o6w&index=10&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "10:00 - 10:30",
         "photo": "/assets/img/speakers/bitcoin.jpg",
         "name": " Bitcoin.com mining team",
-        "title": "What can miners do to improve instant transactions?"
+        "title": "What can miners do to improve instant transactions?",
+        "url": "https://www.youtube.com/watch?v=QKRPrjtL_ZA&index=11&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "10:30 - 11:00",

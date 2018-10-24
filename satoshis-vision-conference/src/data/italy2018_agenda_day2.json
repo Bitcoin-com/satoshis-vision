@@ -10,19 +10,22 @@
         "time": "9:00 - 9:30",
         "photo": "/assets/img/speakers/imaginary_username.jpg",
         "name": "Imaginary Username",
-        "title": "Minimally Invasive: A Proposal for Relaying Double Spend Proofs and Prioritizing Transactions"
+        "title": "Minimally Invasive: A Proposal for Relaying Double Spend Proofs and Prioritizing Transactions",
+        "url": "https://www.youtube.com/watch?v=w7gwOeCETcs&index=5&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "9:30 - 10:00",
         "photo": "/assets/img/speakers/tomzander.png",
         "name": "Tom Zander",
-        "title": "Instant Transactions, How They Failed and How DS-proofs Fixes That"
+        "title": "Instant Transactions, How They Failed and How DS-proofs Fixes That",
+        "url": "https://www.youtube.com/watch?v=nnt-jTpGDLA&index=6&t=0s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "10:00 - 10:30",
         "photo": "/assets/img/speakers/satoshis-vision-conference-_0006_TomHarding.jpg",
         "name": "Tom Harding",
-        "title": "The Relay Race"
+        "title": "The Relay Race",
+        "url": "https://www.youtube.com/watch?v=f1AJv64bqIA&index=7&t=1505s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "10:30 - 11:00",
@@ -33,7 +36,8 @@
         "time": "11:00 - 12:30",
         "photo": "/assets/img/speakers/panel.jpg",
         "name": "Panel Discussion",
-        "title": "Double-spend Proofs Versus Double-spend Relay"
+        "title": "Double-spend Proofs Versus Double-spend Relay",
+        "url": "https://www.youtube.com/watch?v=WO2SDy2ZKmI&index=8&t=3291s&list=PLpd9yRMC7EbkcdoRmUvgTdqkzmGnYQBDU"
       },
       {
         "time": "12:30 - 14:00",
